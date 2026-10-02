@@ -1,261 +1,291 @@
 {
-  "generato": "2026-10-01 22:32",
+  "generato": "2026-10-02 22:29",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
-      "dati_al": "2026-10-01",
+      "dati_al": "2026-10-02",
       "filtro_mercato_ok": true,
       "segnali": [
         {
           "etf": "XLK",
           "nome": "Tecnologia",
           "segnale_del": "2026-10-01T00:00:00.000",
-          "prezzo": 197.81,
-          "rialzo_6m": 47.0,
+          "prezzo": 199.81,
+          "rialzo_6m": 47.3,
           "strumento": "nessuno: salta il segnale",
-          "note": "call su XLK: 5,750 $ = 115% del capitale, troppo cara; call spread su XLK: 5,310 $ = 106% del capitale, troppo cara"
+          "note": "segnale di 1 sedute fa: ingresso ritardato, non testato; call su XLK: 4,950 $ = 99% del capitale, troppo cara; call spread su XLK: 4,545 $ = 91% del capitale, troppo cara"
         }
       ],
       "vicini_al_segnale": [
         {
           "etf": "XLK",
           "nome": "Tecnologia",
-          "prezzo": 197.81,
-          "massimo_12m": 197.74,
-          "distanza_dal_massimo": 0.0,
-          "sedute_dall_ultimo_massimo": 84,
-          "rialzo_1m": 7.8,
-          "rialzo_6m": 47.0,
+          "prezzo": 199.81,
+          "massimo_12m": 197.81,
+          "distanza_dal_massimo": 1.0,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 9.0,
+          "rialzo_6m": 47.3,
           "sopra_media50": true,
           "ok_massimo": true,
-          "ok_pausa_30": true,
+          "ok_pausa_30": false,
           "ok_rialzo_mese": true,
           "ok_mercato": true,
           "ultimo_segnale": "2026-10-01T00:00:00.000",
-          "sedute_dal_segnale": 0,
-          "segnale_oggi": true
+          "sedute_dal_segnale": 1,
+          "segnale_oggi": false
         },
         {
           "etf": "QQQ",
           "nome": "Nasdaq 100",
-          "prezzo": 742.03,
+          "prezzo": 749.58,
           "massimo_12m": 747.46,
-          "distanza_dal_massimo": -0.7,
-          "sedute_dall_ultimo_massimo": 7,
-          "rialzo_1m": 5.0,
-          "rialzo_6m": 27.3,
+          "distanza_dal_massimo": 0.3,
+          "sedute_dall_ultimo_massimo": 8,
+          "rialzo_1m": 5.8,
+          "rialzo_6m": 28.4,
           "sopra_media50": true,
-          "ok_massimo": false,
+          "ok_massimo": true,
           "ok_pausa_30": false,
           "ok_rialzo_mese": true,
           "ok_mercato": true,
           "ultimo_segnale": "2026-09-22T00:00:00.000",
-          "sedute_dal_segnale": 7,
+          "sedute_dal_segnale": 8,
           "segnale_oggi": false
         },
         {
           "etf": "XLE",
           "nome": "Energia",
-          "prezzo": 62.7,
+          "prezzo": 62.95,
           "massimo_12m": 65.54,
-          "distanza_dal_massimo": -4.3,
-          "sedute_dall_ultimo_massimo": 12,
-          "rialzo_1m": -2.6,
-          "rialzo_6m": 7.7,
+          "distanza_dal_massimo": -4.0,
+          "sedute_dall_ultimo_massimo": 13,
+          "rialzo_1m": -2.7,
+          "rialzo_6m": 7.6,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_pausa_30": false,
           "ok_rialzo_mese": true,
           "ok_mercato": true,
           "ultimo_segnale": "2026-08-17T00:00:00.000",
-          "sedute_dal_segnale": 32,
+          "sedute_dal_segnale": 33,
           "segnale_oggi": false
         },
         {
-          "etf": "XLV",
-          "nome": "Salute",
-          "prezzo": 166.2,
-          "massimo_12m": 175.01,
-          "distanza_dal_massimo": -5.0,
-          "sedute_dall_ultimo_massimo": 30,
-          "rialzo_1m": -2.8,
-          "rialzo_6m": 13.4,
+          "etf": "EFA",
+          "nome": "Paesi sviluppati ex USA",
+          "prezzo": 103.96,
+          "massimo_12m": 108.81,
+          "distanza_dal_massimo": -4.5,
+          "sedute_dall_ultimo_massimo": 27,
+          "rialzo_1m": -2.9,
+          "rialzo_6m": 7.8,
           "sopra_media50": false,
           "ok_massimo": false,
           "ok_pausa_30": false,
           "ok_rialzo_mese": true,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-06-26T00:00:00.000",
-          "sedute_dal_segnale": 67,
+          "ultimo_segnale": "2026-06-15T00:00:00.000",
+          "sedute_dal_segnale": 76,
           "segnale_oggi": false
         },
         {
-          "etf": "IBB",
-          "nome": "Biotech grandi",
-          "prezzo": 205.96,
-          "massimo_12m": 216.95,
-          "distanza_dal_massimo": -5.1,
-          "sedute_dall_ultimo_massimo": 30,
-          "rialzo_1m": -2.3,
-          "rialzo_6m": 21.1,
+          "etf": "EEM",
+          "nome": "Emergenti",
+          "prezzo": 67.67,
+          "massimo_12m": 71.21,
+          "distanza_dal_massimo": -5.0,
+          "sedute_dall_ultimo_massimo": 72,
+          "rialzo_1m": 0.8,
+          "rialzo_6m": 20.2,
           "sopra_media50": true,
           "ok_massimo": false,
-          "ok_pausa_30": false,
+          "ok_pausa_30": true,
           "ok_rialzo_mese": true,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-06-23T00:00:00.000",
-          "sedute_dal_segnale": 70,
+          "ultimo_segnale": "2026-04-17T00:00:00.000",
+          "sedute_dal_segnale": 116,
           "segnale_oggi": false
         }
       ]
     },
     "rimbalzo": {
-      "dati_al": "2026-10-01",
+      "dati_al": "2026-10-02",
       "filtro_mercato_ok": true,
       "segnali": [
         {
-          "etf": "EFA",
-          "nome": "Paesi sviluppati ex USA",
-          "prezzo": 102.82,
-          "motivo": "RSI 2 a 4, 4 sedute in calo",
-          "etf_opzioni": "EFA",
-          "scadenza": "2026-11-20",
-          "giorni": 50,
-          "strike": 104.0,
-          "strike_venduta": 107.0,
-          "delta": 0.45,
-          "delta_venduta": 0.26,
-          "medio": 0.51,
-          "lettera": 1.99,
-          "larghezza": 3.0,
-          "costo_su_larghezza": 17,
-          "guadagno_max": 249,
-          "pareggio": 104.52,
-          "costo_1": 51,
-          "contratti": 7,
-          "note": ""
-        },
-        {
           "etf": "XLV",
           "nome": "Salute",
-          "prezzo": 166.2,
-          "motivo": "RSI 2 a 5, 3 sedute in calo",
+          "prezzo": 166.18,
+          "motivo": "RSI 2 a 5, 4 sedute in calo",
           "etf_opzioni": "XLV",
           "scadenza": "2026-11-20",
-          "giorni": 50,
+          "giorni": 49,
           "strike": 167.0,
-          "strike_venduta": 177.0,
+          "strike_venduta": 176.0,
           "delta": 0.52,
-          "delta_venduta": 0.25,
-          "medio": 2.99,
-          "lettera": 6.25,
-          "larghezza": 10.0,
-          "costo_su_larghezza": 30,
-          "guadagno_max": 701,
-          "pareggio": 169.99,
-          "costo_1": 299,
+          "delta_venduta": 0.26,
+          "medio": 2.32,
+          "lettera": 5.45,
+          "larghezza": 9.0,
+          "costo_su_larghezza": 26,
+          "guadagno_max": 668,
+          "pareggio": 169.31,
+          "costo_1": 232,
           "contratti": 1,
           "note": ""
         },
         {
           "etf": "IBB",
           "nome": "Biotech grandi",
-          "prezzo": 205.96,
-          "motivo": "RSI 2 a 7",
+          "prezzo": 205.29,
+          "motivo": "RSI 2 a 5, 3 sedute in calo",
           "etf_opzioni": "IBB",
           "scadenza": "2026-11-20",
-          "giorni": 50,
+          "giorni": 49,
           "strike": 205.0,
           "strike_venduta": 220.0,
-          "delta": 0.56,
-          "delta_venduta": 0.26,
-          "medio": 5.4,
-          "lettera": 7.5,
+          "delta": 0.55,
+          "delta_venduta": 0.23,
+          "medio": 5.9,
+          "lettera": 7.7,
           "larghezza": 15.0,
-          "costo_su_larghezza": 36,
-          "guadagno_max": 960,
-          "pareggio": 210.4,
-          "costo_1": 540,
+          "costo_su_larghezza": 39,
+          "guadagno_max": 910,
+          "pareggio": 210.9,
+          "costo_1": 590,
           "contratti": 1,
           "note": ""
         }
       ],
       "vicini_al_segnale": [
         {
-          "etf": "EFA",
-          "nome": "Paesi sviluppati ex USA",
-          "prezzo": 102.82,
-          "rsi2": 4.4,
-          "sedute_in_calo": 4,
-          "var_3gg": -2.1,
-          "dist_media200": 1.2,
-          "sopra_media200": true,
-          "segnale": true,
-          "motivo": "RSI 2 a 4, 4 sedute in calo"
-        },
-        {
           "etf": "XLV",
           "nome": "Salute",
-          "prezzo": 166.2,
-          "rsi2": 4.6,
-          "sedute_in_calo": 3,
-          "var_3gg": -3.0,
+          "prezzo": 166.18,
+          "rsi2": 4.5,
+          "sedute_in_calo": 4,
+          "var_3gg": -2.7,
           "dist_media200": 6.9,
           "sopra_media200": true,
           "segnale": true,
-          "motivo": "RSI 2 a 5, 3 sedute in calo"
-        },
-        {
-          "etf": "XLP",
-          "nome": "Consumi di base",
-          "prezzo": 80.33,
-          "rsi2": 5.2,
-          "sedute_in_calo": 3,
-          "var_3gg": -2.4,
-          "dist_media200": -2.8,
-          "sopra_media200": false,
-          "segnale": false,
-          "motivo": "RSI 2 a 5, 3 sedute in calo"
+          "motivo": "RSI 2 a 5, 4 sedute in calo"
         },
         {
           "etf": "IBB",
           "nome": "Biotech grandi",
-          "prezzo": 205.96,
-          "rsi2": 6.8,
-          "sedute_in_calo": 2,
-          "var_3gg": -2.3,
-          "dist_media200": 13.9,
+          "prezzo": 205.29,
+          "rsi2": 5.4,
+          "sedute_in_calo": 3,
+          "var_3gg": -2.7,
+          "dist_media200": 13.4,
           "sopra_media200": true,
           "segnale": true,
-          "motivo": "RSI 2 a 7"
+          "motivo": "RSI 2 a 5, 3 sedute in calo"
         },
         {
-          "etf": "XLY",
-          "nome": "Consumi discrezionali",
-          "prezzo": 108.81,
-          "rsi2": 12.6,
+          "etf": "XBI",
+          "nome": "Biotech piccole",
+          "prezzo": 154.47,
+          "rsi2": 17.9,
           "sedute_in_calo": 2,
-          "var_3gg": -0.2,
-          "dist_media200": -6.2,
+          "var_3gg": -1.5,
+          "dist_media200": 11.3,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "XLF",
+          "nome": "Finanziari",
+          "prezzo": 53.49,
+          "rsi2": 24.0,
+          "sedute_in_calo": 0,
+          "var_3gg": -1.0,
+          "dist_media200": 0.3,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "XLP",
+          "nome": "Consumi di base",
+          "prezzo": 80.53,
+          "rsi2": 30.7,
+          "sedute_in_calo": 0,
+          "var_3gg": -1.6,
+          "dist_media200": -2.6,
           "sopra_media200": false,
           "segnale": false,
-          "motivo": "RSI 2 a 13"
+          "motivo": ""
         }
       ]
     }
   },
   "narrativa": {
-    "generato": "2026-10-01 21:51",
-    "giornata": "2026-10-01",
-    "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare la sintesi, i temi in amplificazione e le eventuali intersezioni con le posizioni aperte o con i segnali degli scanner. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
+    "generato": "2026-10-02 21:55",
+    "giornata": "2026-10-02",
+    "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "Insider in gruppo: BPRE (2 insider, 5.411.207 $), NYAX (2 insider, 4.338.639 $), XENE (3 insider, 2.802.540 $), FUL (9 insider, 1.020.399 $)",
-      "Insider che comprano nel calo: XENE (-34% nel mese)"
+      "Kalshi: «Will the Federal Reserve hike rates by December 31, 2026? — Before 2027» 70% (-12 pt in un giorno)",
+      "Polymarket: «Will there be no change in Fed interest rates after the December 2026 meeting?» 20% (-10 pt in un giorno)",
+      "Insider in gruppo: GME (2 insider, 10.818.336 $), NYAX (2 insider, 6.450.722 $), BPRE (2 insider, 5.411.207 $), XENE (3 insider, 2.802.540 $)",
+      "Insider che comprano nel calo: XENE (-37% nel mese)"
     ],
     "temi_in_crescita": [],
     "narrative_emergenti": [],
-    "mercati_previsione_mosse": [],
+    "mercati_previsione_mosse": [
+      {
+        "mercato": "Kalshi",
+        "domanda": "Will the Federal Reserve hike rates by December 31, 2026? — Before 2027",
+        "prob": 0.7,
+        "var_giorno": -0.12
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+        "prob": 0.2,
+        "var_giorno": -0.105
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will Anthropic have the highest IPO Market Cap 2026?",
+        "prob": 0.555,
+        "var_giorno": 0.084
+      }
+    ],
     "insider_gruppi": [
+      {
+        "ticker": "GME",
+        "emittente": "Gamestop Corp.",
+        "insider": 2,
+        "valore_totale": 10818336,
+        "ultima_operazione": "2026-10-01",
+        "chi": [
+          "Cohen Ryan (Pres, CEO, COB)",
+          "Turner Nat (consigliere)"
+        ],
+        "rendimento_1m": 0.298,
+        "dal_massimo_12m": -0.096,
+        "sopra_media200": true,
+        "sp500": false
+      },
+      {
+        "ticker": "NYAX",
+        "emittente": "Nayax Ltd.",
+        "insider": 2,
+        "valore_totale": 6450722,
+        "ultima_operazione": "2026-09-30",
+        "chi": [
+          "Ben-Avi David (CTO, Co Founder)",
+          "Nechmad Yair (CEO, Co Founder & Chairman)",
+          "Nechmad Yair (CEO, Co Founder, COB)"
+        ],
+        "rendimento_1m": -0.084,
+        "dal_massimo_12m": -0.35,
+        "sopra_media200": false,
+        "sp500": false
+      },
       {
         "ticker": "BPRE",
         "emittente": "Bluerock Private Real Estate Fund",
@@ -266,24 +296,8 @@
           "KAMFAR RAMIN (consigliere)",
           "Ruddy Jordan B. (President)"
         ],
-        "rendimento_1m": 0.065,
-        "dal_massimo_12m": -0.26,
-        "sopra_media200": null,
-        "sp500": false
-      },
-      {
-        "ticker": "NYAX",
-        "emittente": "Nayax Ltd.",
-        "insider": 2,
-        "valore_totale": 4338639,
-        "ultima_operazione": "2026-09-29",
-        "chi": [
-          "Ben-Avi David (CTO, Co Founder)",
-          "Nechmad Yair (CEO, Co Founder & Chairman)",
-          "Nechmad Yair (CEO, Co Founder, COB)"
-        ],
-        "rendimento_1m": -0.089,
-        "dal_massimo_12m": -0.359,
+        "rendimento_1m": 0.06,
+        "dal_massimo_12m": -0.255,
         "sopra_media200": false,
         "sp500": false
       },
@@ -298,8 +312,8 @@
           "MORTIMER IAN (consigliere, PRESIDENT & CEO)",
           "Mortimer Ian (Pres, CEO)"
         ],
-        "rendimento_1m": -0.344,
-        "dal_massimo_12m": -0.445,
+        "rendimento_1m": -0.371,
+        "dal_massimo_12m": -0.467,
         "sopra_media200": false,
         "sp500": false
       },
@@ -316,7 +330,7 @@
           "Handley Thomas W (Dir)",
           "Happe Michael J (consigliere)"
         ],
-        "rendimento_1m": -0.066,
+        "rendimento_1m": -0.068,
         "dal_massimo_12m": -0.249,
         "sopra_media200": false,
         "sp500": false
@@ -334,39 +348,23 @@
           "Jones Nina P (consigliere)",
           "LEIBOWITZ REUBEN S (consigliere)"
         ],
-        "rendimento_1m": -0.038,
-        "dal_massimo_12m": -0.139,
+        "rendimento_1m": -0.034,
+        "dal_massimo_12m": -0.142,
         "sopra_media200": true,
         "sp500": true
-      },
-      {
-        "ticker": "PMPEX",
-        "emittente": "Primark Meketa Private Equity Investments Fund",
-        "insider": 3,
-        "valore_totale": 174500,
-        "ultima_operazione": "2026-09-28",
-        "chi": [
-          "Hartt Steven Knut ()",
-          "Samson Ethan Isaac ()",
-          "Woolley Peter Scott ()"
-        ],
-        "rendimento_1m": 0.0,
-        "dal_massimo_12m": -0.004,
-        "sopra_media200": true,
-        "sp500": false
       }
     ],
     "insider_nel_calo": [
       {
         "ticker": "XENE",
-        "rendimento_1m": -0.344,
-        "dal_massimo_12m": -0.445,
+        "rendimento_1m": -0.371,
+        "dal_massimo_12m": -0.467,
         "sopra_media200": false,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 11,
+    "congresso_comunicazioni": 12,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
       "settimana": "2026-09-20",
@@ -376,12 +374,71 @@
       "lettura": "indice di paura tra i più bassi dell'anno"
     },
     "ricerche_in_evidenza": [],
+    "posizioni_e_segnali": [
+      {
+        "ticker": "XLK",
+        "origine": "posizione aperta + segnale rottura dei massimi",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": 0.089,
+        "sopra_media200": true,
+        "vol_implicita": 28.3
+      },
+      {
+        "ticker": "EFA",
+        "origine": "segnale Rimbalzo in trend",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": -0.029,
+        "sopra_media200": true,
+        "vol_implicita": 18.2
+      },
+      {
+        "ticker": "XLV",
+        "origine": "segnale Rimbalzo in trend",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": -0.035,
+        "sopra_media200": true,
+        "vol_implicita": 17.8
+      },
+      {
+        "ticker": "IBB",
+        "origine": "segnale Rimbalzo in trend",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": -0.04,
+        "sopra_media200": true,
+        "vol_implicita": 21.9
+      }
+    ],
+    "registro_casi": {
+      "nuovi_oggi": [],
+      "bilancio": [
+        {
+          "tipo": "insider in gruppo",
+          "casi": 7,
+          "chiusi_20": 0,
+          "diff_20": null,
+          "giudizio": "in raccolta"
+        },
+        {
+          "tipo": "insider nel calo",
+          "casi": 2,
+          "chiusi_20": 0,
+          "diff_20": null,
+          "giudizio": "in raccolta"
+        }
+      ]
+    },
     "fonti_non_raggiungibili": [
-      "r/stocks",
-      "r/options",
-      "GDELT (Geopolitica e guerre)",
-      "GDELT (Cina)",
-      "GDELT"
+      "r/investing",
+      "r/StockMarket",
+      "OGE (Presidente)"
     ]
   }
 }

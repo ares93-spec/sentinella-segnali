@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-02 22:29",
+  "generato": "2026-10-04 00:50",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -56,12 +56,12 @@
         {
           "etf": "XLE",
           "nome": "Energia",
-          "prezzo": 62.95,
+          "prezzo": 62.82,
           "massimo_12m": 65.54,
-          "distanza_dal_massimo": -4.0,
+          "distanza_dal_massimo": -4.2,
           "sedute_dall_ultimo_massimo": 13,
-          "rialzo_1m": -2.7,
-          "rialzo_6m": 7.6,
+          "rialzo_1m": -2.9,
+          "rialzo_6m": 7.4,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_pausa_30": false,
@@ -186,8 +186,8 @@
         {
           "etf": "XBI",
           "nome": "Biotech piccole",
-          "prezzo": 154.47,
-          "rsi2": 17.9,
+          "prezzo": 154.43,
+          "rsi2": 17.6,
           "sedute_in_calo": 2,
           "var_3gg": -1.5,
           "dist_media200": 11.3,
@@ -221,6 +221,49 @@
         }
       ]
     }
+  },
+  "correzioni": {
+    "dati_al": "2026-10-02",
+    "semaforo": "R1",
+    "significato": "verde: sopra la media a 200, piano normale",
+    "spx": 7722.72,
+    "media200": 7225.82,
+    "distanza_media200_pct": 6.9,
+    "media200_in_calo": false,
+    "media50": 7657.64,
+    "calo_dal_massimo_52s_pct": -1.0,
+    "sedute_dal_massimo": 35,
+    "vix": 15.31,
+    "vix_max_60_sedute": 20.66,
+    "vix_sopra_40_nelle_ultime_120": false,
+    "disoccupazione": {
+      "fonte": "copia salvata nel repository",
+      "mese_usato": "2024-05",
+      "media_3_mesi": null,
+      "scarto_dalla_media_12_mesi": null,
+      "in_salita": null
+    },
+    "segnali_attivi": [],
+    "avvisi": [
+      "dato sulla disoccupazione mancante o vecchio: semaforo giallo/rosso non distinguibile"
+    ],
+    "ampiezza": "non ancora calcolata (regola in prova da aggiungere)",
+    "regole": "Operative: L1, L2, L3. In prova, solo registro: S2 (correzioni/registro.csv). un contratto XSP, circa il 3% del conto (900 $ su 30.000 $); una posizione per regola, tre al massimo",
+    "report": "https://claude.ai/artifact/1zifTFsi8fAVzHz2gLhxZA"
+  },
+  "fine_mese": {
+    "dati_al": "2026-10-02",
+    "spy": 769.64,
+    "sedute_alla_fine_del_mese": 20,
+    "ultima_seduta": "2026-10-30",
+    "azioni_da_comprare": 0,
+    "stop_indicativo": null,
+    "spy_meno_tlt_da_inizio_mese_pct": 0.9,
+    "soglia_pct": -2.88,
+    "giorno_del_segnale": false,
+    "segnale_attivo": false,
+    "avvisi": [],
+    "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
     "generato": "2026-10-02 21:55",

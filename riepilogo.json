@@ -1,53 +1,100 @@
 {
-  "generato": "2026-10-04 00:50",
+  "generato": "2026-10-04 13:18",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
+      "cot_sp": {
+        "data_rapporto": "2026-09-29",
+        "indice": 69.6,
+        "sopra_soglia": false
+      },
       "dati_al": "2026-10-02",
       "filtro_mercato_ok": true,
-      "segnali": [
+      "posizioni_aperte": [
         {
           "etf": "XLK",
-          "nome": "Tecnologia",
-          "segnale_del": "2026-10-01T00:00:00.000",
-          "prezzo": 199.81,
-          "rialzo_6m": 47.3,
+          "strike": 190.0,
+          "scadenza": "2026-12-18",
+          "pagato": 14.9,
+          "valore_medio": 16.85,
+          "risultato_pct": 13.1,
+          "giorni_alla_scadenza": 77,
+          "azione": "tieni"
+        }
+      ],
+      "posti_liberi": 2,
+      "segnali": [
+        {
+          "etf": "SMH",
+          "nome": "Semiconduttori",
+          "segnale_del": "2026-09-30T00:00:00.000",
+          "prezzo": 630.6,
+          "rialzo_6m": 60.7,
+          "cot_sp": 69.6,
           "strumento": "nessuno: salta il segnale",
-          "note": "segnale di 1 sedute fa: ingresso ritardato, non testato; call su XLK: 4,950 $ = 99% del capitale, troppo cara; call spread su XLK: 4,545 $ = 91% del capitale, troppo cara"
+          "note": "segnale di 2 sedute fa: ingresso ritardato, non testato; COT S&P commercial 70 (rapporto del 2026-09-29); call su SMH: 5,888 $ = 118% del capitale, troppo cara; call spread su SMH: 4,135 $ = 83% del capitale, troppo cara"
         }
       ],
       "vicini_al_segnale": [
         {
+          "etf": "SMH",
+          "nome": "Semiconduttori",
+          "prezzo": 630.6,
+          "massimo_55s": 617.81,
+          "distanza_dal_massimo": 2.1,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 14.6,
+          "rialzo_6m": 60.7,
+          "sopra_media50": true,
+          "ok_massimo": true,
+          "ok_mercato": true,
+          "ultimo_segnale": "2026-09-30T00:00:00.000",
+          "sedute_dal_segnale": 2,
+          "segnale_oggi": false
+        },
+        {
           "etf": "XLK",
           "nome": "Tecnologia",
           "prezzo": 199.81,
-          "massimo_12m": 197.81,
+          "massimo_55s": 197.81,
           "distanza_dal_massimo": 1.0,
           "sedute_dall_ultimo_massimo": 1,
           "rialzo_1m": 9.0,
           "rialzo_6m": 47.3,
           "sopra_media50": true,
           "ok_massimo": true,
-          "ok_pausa_30": false,
-          "ok_rialzo_mese": true,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-10-01T00:00:00.000",
-          "sedute_dal_segnale": 1,
+          "ultimo_segnale": "2026-09-21T00:00:00.000",
+          "sedute_dal_segnale": 9,
           "segnale_oggi": false
         },
         {
           "etf": "QQQ",
           "nome": "Nasdaq 100",
           "prezzo": 749.58,
-          "massimo_12m": 747.46,
+          "massimo_55s": 747.46,
           "distanza_dal_massimo": 0.3,
           "sedute_dall_ultimo_massimo": 8,
           "rialzo_1m": 5.8,
           "rialzo_6m": 28.4,
           "sopra_media50": true,
           "ok_massimo": true,
-          "ok_pausa_30": false,
-          "ok_rialzo_mese": true,
+          "ok_mercato": true,
+          "ultimo_segnale": "2026-09-21T00:00:00.000",
+          "sedute_dal_segnale": 9,
+          "segnale_oggi": false
+        },
+        {
+          "etf": "EEM",
+          "nome": "Emergenti",
+          "prezzo": 67.67,
+          "massimo_55s": 69.1,
+          "distanza_dal_massimo": -2.1,
+          "sedute_dall_ultimo_massimo": 8,
+          "rialzo_1m": 0.8,
+          "rialzo_6m": 20.2,
+          "sopra_media50": true,
+          "ok_massimo": false,
           "ok_mercato": true,
           "ultimo_segnale": "2026-09-22T00:00:00.000",
           "sedute_dal_segnale": 8,
@@ -57,54 +104,16 @@
           "etf": "XLE",
           "nome": "Energia",
           "prezzo": 62.82,
-          "massimo_12m": 65.54,
+          "massimo_55s": 65.54,
           "distanza_dal_massimo": -4.2,
           "sedute_dall_ultimo_massimo": 13,
           "rialzo_1m": -2.9,
           "rialzo_6m": 7.4,
           "sopra_media50": true,
           "ok_massimo": false,
-          "ok_pausa_30": false,
-          "ok_rialzo_mese": true,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-08-17T00:00:00.000",
-          "sedute_dal_segnale": 33,
-          "segnale_oggi": false
-        },
-        {
-          "etf": "EFA",
-          "nome": "Paesi sviluppati ex USA",
-          "prezzo": 103.96,
-          "massimo_12m": 108.81,
-          "distanza_dal_massimo": -4.5,
-          "sedute_dall_ultimo_massimo": 27,
-          "rialzo_1m": -2.9,
-          "rialzo_6m": 7.8,
-          "sopra_media50": false,
-          "ok_massimo": false,
-          "ok_pausa_30": false,
-          "ok_rialzo_mese": true,
-          "ok_mercato": true,
-          "ultimo_segnale": "2026-06-15T00:00:00.000",
-          "sedute_dal_segnale": 76,
-          "segnale_oggi": false
-        },
-        {
-          "etf": "EEM",
-          "nome": "Emergenti",
-          "prezzo": 67.67,
-          "massimo_12m": 71.21,
-          "distanza_dal_massimo": -5.0,
-          "sedute_dall_ultimo_massimo": 72,
-          "rialzo_1m": 0.8,
-          "rialzo_6m": 20.2,
-          "sopra_media50": true,
-          "ok_massimo": false,
-          "ok_pausa_30": true,
-          "ok_rialzo_mese": true,
-          "ok_mercato": true,
-          "ultimo_segnale": "2026-04-17T00:00:00.000",
-          "sedute_dal_segnale": 116,
+          "ultimo_segnale": "2026-08-10T00:00:00.000",
+          "sedute_dal_segnale": 38,
           "segnale_oggi": false
         }
       ]
@@ -112,6 +121,8 @@
     "rimbalzo": {
       "dati_al": "2026-10-02",
       "filtro_mercato_ok": true,
+      "posizioni_aperte": [],
+      "posti_liberi": 4,
       "segnali": [
         {
           "etf": "XLV",
@@ -237,16 +248,14 @@
     "vix_max_60_sedute": 20.66,
     "vix_sopra_40_nelle_ultime_120": false,
     "disoccupazione": {
-      "fonte": "copia salvata nel repository",
-      "mese_usato": "2024-05",
-      "media_3_mesi": null,
-      "scarto_dalla_media_12_mesi": null,
-      "in_salita": null
+      "fonte": "BLS",
+      "mese_usato": "2026-08",
+      "media_3_mesi": 4.13,
+      "scarto_dalla_media_12_mesi": -0.17,
+      "in_salita": false
     },
     "segnali_attivi": [],
-    "avvisi": [
-      "dato sulla disoccupazione mancante o vecchio: semaforo giallo/rosso non distinguibile"
-    ],
+    "avvisi": [],
     "ampiezza": "non ancora calcolata (regola in prova da aggiungere)",
     "regole": "Operative: L1, L2, L3. In prova, solo registro: S2 (correzioni/registro.csv). un contratto XSP, circa il 3% del conto (900 $ su 30.000 $); una posizione per regola, tre al massimo",
     "report": "https://claude.ai/artifact/1zifTFsi8fAVzHz2gLhxZA"

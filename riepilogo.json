@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-20 22:47",
+  "generato": "2026-10-21 22:46",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -8,133 +8,107 @@
         "indice": 69.1,
         "sopra_soglia": false
       },
-      "dati_al": "2026-10-20",
+      "dati_al": "2026-10-21",
       "filtro_mercato_ok": true,
       "posizioni_aperte": [],
       "posti_liberi": 3,
-      "segnali": [
-        {
-          "etf": "XLP",
-          "nome": "Consumi di base",
-          "segnale_del": "2026-10-16T00:00:00.000",
-          "prezzo": 87.75,
-          "rialzo_6m": 8.7,
-          "cot_sp": 69.1,
-          "scadenza": "2027-01-15",
-          "giorni": 87,
-          "strike": 86.0,
-          "delta": 0.68,
-          "iv": 14.5,
-          "denaro": 3.4,
-          "lettera": 4.5,
-          "medio": 3.95,
-          "forchetta_pct": 27.8,
-          "interesse_aperto": 312,
-          "strike_venduta": null,
-          "delta_venduta": null,
-          "uscita_entro": "2026-12-16T00:00:00.000",
-          "strumento": "call su XLP",
-          "costo_1_contratto": 395,
-          "contratti": 1,
-          "note": "segnale di 2 sedute fa: ingresso ritardato, non testato; COT S&P commercial 69 (rapporto del 2026-10-13); forchetta larga"
-        }
-      ],
+      "segnali": [],
       "vicini_al_segnale": [
-        {
-          "etf": "XLV",
-          "nome": "Salute",
-          "prezzo": 179.82,
-          "massimo_55s": 177.19,
-          "distanza_dal_massimo": 1.5,
-          "sedute_dall_ultimo_massimo": 3,
-          "rialzo_1m": 6.4,
-          "rialzo_6m": 24.2,
-          "sopra_media50": true,
-          "ok_massimo": true,
-          "ok_mercato": true,
-          "ultimo_segnale": "2026-10-15T00:00:00.000",
-          "sedute_dal_segnale": 3,
-          "segnale_oggi": false
-        },
-        {
-          "etf": "XLP",
-          "nome": "Consumi di base",
-          "prezzo": 87.75,
-          "massimo_55s": 87.62,
-          "distanza_dal_massimo": 0.1,
-          "sedute_dall_ultimo_massimo": 2,
-          "rialzo_1m": 7.1,
-          "rialzo_6m": 8.7,
-          "sopra_media50": true,
-          "ok_massimo": true,
-          "ok_mercato": true,
-          "ultimo_segnale": "2026-10-16T00:00:00.000",
-          "sedute_dal_segnale": 2,
-          "segnale_oggi": false
-        },
         {
           "etf": "XLE",
           "nome": "Energia",
-          "prezzo": 67.97,
+          "prezzo": 68.16,
           "massimo_55s": 68.24,
-          "distanza_dal_massimo": -0.4,
-          "sedute_dall_ultimo_massimo": 2,
-          "rialzo_1m": 8.8,
-          "rialzo_6m": 23.3,
+          "distanza_dal_massimo": -0.1,
+          "sedute_dall_ultimo_massimo": 3,
+          "rialzo_1m": 10.3,
+          "rialzo_6m": 22.1,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
           "ultimo_segnale": "2026-08-10T00:00:00.000",
-          "sedute_dal_segnale": 50,
+          "sedute_dal_segnale": 51,
+          "segnale_oggi": false
+        },
+        {
+          "etf": "XLV",
+          "nome": "Salute",
+          "prezzo": 178.94,
+          "massimo_55s": 179.82,
+          "distanza_dal_massimo": -0.5,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 5.3,
+          "rialzo_6m": 23.3,
+          "sopra_media50": true,
+          "ok_massimo": false,
+          "ok_mercato": true,
+          "ultimo_segnale": "2026-10-15T00:00:00.000",
+          "sedute_dal_segnale": 4,
+          "segnale_oggi": false
+        },
+        {
+          "etf": "XLP",
+          "nome": "Consumi di base",
+          "prezzo": 87.11,
+          "massimo_55s": 87.75,
+          "distanza_dal_massimo": -0.7,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 5.3,
+          "rialzo_6m": 7.5,
+          "sopra_media50": true,
+          "ok_massimo": false,
+          "ok_mercato": true,
+          "ultimo_segnale": "2026-10-16T00:00:00.000",
+          "sedute_dal_segnale": 3,
           "segnale_oggi": false
         },
         {
           "etf": "IBB",
           "nome": "Biotech grandi",
-          "prezzo": 210.5,
+          "prezzo": 211.55,
           "massimo_55s": 216.95,
-          "distanza_dal_massimo": -3.0,
-          "sedute_dall_ultimo_massimo": 43,
-          "rialzo_1m": 1.6,
-          "rialzo_6m": 21.0,
+          "distanza_dal_massimo": -2.5,
+          "sedute_dall_ultimo_massimo": 44,
+          "rialzo_1m": 0.4,
+          "rialzo_6m": 21.4,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
           "ultimo_segnale": "2026-08-10T00:00:00.000",
-          "sedute_dal_segnale": 50,
+          "sedute_dal_segnale": 51,
           "segnale_oggi": false
         },
         {
           "etf": "XLY",
           "nome": "Consumi discrezionali",
-          "prezzo": 115.5,
+          "prezzo": 115.53,
           "massimo_55s": 119.6,
           "distanza_dal_massimo": -3.4,
-          "sedute_dall_ultimo_massimo": 100,
-          "rialzo_1m": 2.9,
+          "sedute_dall_ultimo_massimo": 101,
+          "rialzo_1m": 2.8,
           "rialzo_6m": -2.5,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
           "ultimo_segnale": "2026-05-27T00:00:00.000",
-          "sedute_dal_segnale": 101,
+          "sedute_dal_segnale": 102,
           "segnale_oggi": false
         }
       ]
     },
     "rimbalzo": {
-      "dati_al": "2026-10-20",
+      "dati_al": "2026-10-21",
       "filtro_mercato_ok": true,
       "posizioni_aperte": [
         {
           "etf": "XBI",
           "spread": "152/165",
           "scadenza": "2026-11-20",
-          "prezzo": 153.24,
+          "prezzo": 152.78,
           "pagato": 4.55,
-          "valore": 4.77,
-          "risultato_pct": 5,
-          "giorni": 31,
+          "valore": 4.94,
+          "risultato_pct": 8,
+          "giorni": 30,
           "azione": "tieni fino alla scadenza"
         }
       ],
@@ -142,37 +116,13 @@
       "segnali": [],
       "vicini_al_segnale": [
         {
-          "etf": "XLI",
-          "nome": "Industriali",
-          "prezzo": 166.8,
-          "rsi2": 25.3,
-          "sedute_in_calo": 0,
+          "etf": "XLP",
+          "nome": "Consumi di base",
+          "prezzo": 87.11,
+          "rsi2": 39.9,
+          "sedute_in_calo": 1,
           "var_3gg": -0.6,
-          "dist_media200": -3.2,
-          "sopra_media200": false,
-          "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "SMH",
-          "nome": "Semiconduttori",
-          "prezzo": 546.36,
-          "rsi2": 31.5,
-          "sedute_in_calo": 1,
-          "var_3gg": -2.2,
-          "dist_media200": 6.5,
-          "sopra_media200": true,
-          "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "XLK",
-          "nome": "Tecnologia",
-          "prezzo": 185.44,
-          "rsi2": 33.2,
-          "sedute_in_calo": 1,
-          "var_3gg": -2.0,
-          "dist_media200": 10.6,
+          "dist_media200": 4.7,
           "sopra_media200": true,
           "segnale": false,
           "motivo": ""
@@ -180,23 +130,47 @@
         {
           "etf": "EEM",
           "nome": "Emergenti",
-          "prezzo": 63.32,
-          "rsi2": 35.6,
+          "prezzo": 63.57,
+          "rsi2": 62.6,
           "sedute_in_calo": 0,
-          "var_3gg": -1.0,
-          "dist_media200": -0.3,
+          "var_3gg": 1.1,
+          "dist_media200": 0.1,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "XLV",
+          "nome": "Salute",
+          "prezzo": 178.94,
+          "rsi2": 66.3,
+          "sedute_in_calo": 1,
+          "var_3gg": 1.3,
+          "dist_media200": 14.1,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "XLU",
+          "nome": "Utility",
+          "prezzo": 42.0,
+          "rsi2": 67.4,
+          "sedute_in_calo": 0,
+          "var_3gg": -0.5,
+          "dist_media200": -4.0,
           "sopra_media200": false,
           "segnale": false,
           "motivo": ""
         },
         {
-          "etf": "QQQ",
-          "nome": "Nasdaq 100",
-          "prezzo": 717.63,
-          "rsi2": 39.9,
-          "sedute_in_calo": 1,
-          "var_3gg": -1.4,
-          "dist_media200": 6.4,
+          "etf": "SMH",
+          "nome": "Semiconduttori",
+          "prezzo": 556.7,
+          "rsi2": 72.6,
+          "sedute_in_calo": 0,
+          "var_3gg": 3.1,
+          "dist_media200": 8.3,
           "sopra_media200": true,
           "segnale": false,
           "motivo": ""
@@ -205,21 +179,21 @@
     }
   },
   "correzioni": {
-    "dati_al": "2026-10-20",
+    "dati_al": "2026-10-21",
     "semaforo": "R1",
     "significato": "verde: sopra la media a 200, piano normale",
-    "spx": 7712.57,
-    "media200": 7279.93,
-    "distanza_media200_pct": 5.9,
+    "spx": 7757.17,
+    "media200": 7284.21,
+    "distanza_media200_pct": 6.5,
     "media200_in_calo": false,
-    "media50": 7704.27,
-    "calo_dal_massimo_52s_pct": -1.4,
-    "sedute_dal_massimo": 10,
-    "vix": 17.31,
+    "media50": 7704.85,
+    "calo_dal_massimo_52s_pct": -0.8,
+    "sedute_dal_massimo": 11,
+    "vix": 16.68,
     "vix_max_60_sedute": 20.66,
     "vix_sopra_40_nelle_ultime_120": false,
     "disoccupazione": {
-      "fonte": "BLS",
+      "fonte": "copia salvata nel repository",
       "mese_usato": "2026-08",
       "media_3_mesi": 4.13,
       "scarto_dalla_media_12_mesi": -0.17,
@@ -232,13 +206,13 @@
     "report": "https://claude.ai/artifact/1zifTFsi8fAVzHz2gLhxZA"
   },
   "fine_mese": {
-    "dati_al": "2026-10-20",
-    "spy": 769.05,
-    "sedute_alla_fine_del_mese": 8,
+    "dati_al": "2026-10-21",
+    "spy": 773.09,
+    "sedute_alla_fine_del_mese": 7,
     "ultima_seduta": "2026-10-30",
     "azioni_da_comprare": 0,
     "stop_indicativo": null,
-    "spy_meno_tlt_da_inizio_mese_pct": -2.59,
+    "spy_meno_tlt_da_inizio_mese_pct": -2.21,
     "soglia_pct": -2.88,
     "giorno_del_segnale": false,
     "segnale_attivo": false,
@@ -246,26 +220,27 @@
     "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
-    "generato": "2026-10-20 22:07",
-    "giornata": "2026-10-20",
+    "generato": "2026-10-21 22:10",
+    "giornata": "2026-10-21",
     "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "XLP (segnale rottura dei massimi): tema «Inflazione» in calo",
-      "Dazi e commercio: in amplificazione sulle grandi testate (7 titoli, 1.51× il solito, 6 fonti)",
-      "Parole nuove in più fonti: «anthropic ipo» (4), «home sales» (4), «spacex earnings» (3), «financial services» (3)",
-      "Kalshi: «Will the 30Y U.S. Treasury yield be above 4.49% on Dec 31, 2027? — 4.5% or above» 36% (-55 pt in un giorno)",
-      "Polymarket: «Will Anthropic have the best AI model at the end of October 2026?» 20% (-19 pt in un giorno)",
-      "Insider in gruppo: BPRE (3 insider, 16.447.690 $), APLD (2 insider, 6.664.686 $), FUL (2 insider, 525.000 $), AGMB (3 insider, 217.440 $)",
-      "Insider che comprano nel calo: AGMB (-25% nel mese), APLD (-31% nel mese)",
-      "Ricerche Google in salita: «interest rates»"
+      "Quantum, spazio e droni: in amplificazione sulle grandi testate (58 titoli, 3.64× il solito, 17 fonti)",
+      "Elettricità e nucleare: nascente (origine o social, non ancora sulle testate) (3 titoli, 1.7× il solito, 3 fonti)",
+      "Parole nuove in più fonti: «spacex tesla» (5), «super micro» (4), «ken griffin» (4), «shares rise» (3)",
+      "Kalshi: «Will the 30Y U.S. Treasury yield be above 3.99% on Dec 31, 2027? — 4% or above» 26% (-71 pt in un giorno)",
+      "Polymarket: «Russia-Ukraine peace talks by November 30, 2026?» 68% (+49 pt in un giorno)",
+      "Insider in gruppo: BPRE (3 insider, 14.592.940 $), APLD (2 insider, 6.664.686 $), FUL (2 insider, 525.000 $), DX (2 insider, 167.260 $)",
+      "Insider che comprano nel calo: APLD (-26% nel mese)",
+      "Ricerche Google in salita: «interest rates»",
+      "Registro dei casi: 2 nuovi casi annotati per il test"
     ],
     "traguardi": [],
     "stato_test": {
-      "temi_giorni_storico": 13,
+      "temi_giorni_storico": 14,
       "temi_pronti": true,
       "registro": {
         "insider in gruppo": {
-          "casi": 11,
+          "casi": 12,
           "chiusi_20": 0,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -286,7 +261,7 @@
           "diff_20": null
         },
         "tema nascente": {
-          "casi": 5,
+          "casi": 6,
           "chiusi_20": 0,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -303,75 +278,88 @@
     },
     "temi_in_crescita": [
       {
-        "tema": "Dazi e commercio",
+        "tema": "Quantum, spazio e droni",
         "fase": "in amplificazione sulle grandi testate",
-        "titoli": 7,
-        "rapporto": 1.51,
-        "esempio": "US stocks recover after AI sell-off"
+        "titoli": 58,
+        "rapporto": 3.64,
+        "esempio": "Michael Burry Is Shorting Nebius. SpaceX Just Said Its AI Chips Pay for Themselves in Under a Year."
+      },
+      {
+        "tema": "Elettricità e nucleare",
+        "fase": "nascente (origine o social, non ancora sulle testate)",
+        "titoli": 3,
+        "rapporto": 1.7,
+        "esempio": "Expanding AI trade is turning safety stocks into a 'Texas hedge'"
       }
     ],
     "narrative_emergenti": [
       {
-        "parole": "anthropic ipo",
+        "parole": "spacex tesla",
+        "fonti": 5,
+        "esempio": "Tesla Earnings Today: SpaceX, Tesla Shares Rise After Deal Talks"
+      },
+      {
+        "parole": "super micro",
         "fonti": 4,
-        "esempio": "Submit a question: Could Anthropic’s IPO be a turning point for AI?"
+        "esempio": "Super Micro Computer Shares Up as Preliminary Revenue Tops Guidance"
       },
       {
-        "parole": "home sales",
+        "parole": "ken griffin",
         "fonti": 4,
-        "esempio": "US Pending Home Sales Collapse To Record Lows In September"
+        "esempio": "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin"
       },
       {
-        "parole": "spacex earnings",
+        "parole": "shares rise",
         "fonti": 3,
-        "esempio": "SpaceX Earnings Today: Investors Await Report From Musk-Led Company"
+        "esempio": "Fannie and Freddie shares rise after court win, but Michael Burry favors preferred stock over common shares."
       },
       {
-        "parole": "financial services",
+        "parole": "bond yield",
         "fonti": 3,
-        "esempio": "Financial Services Roundup: Market Talk"
+        "esempio": "Bitcoin seen as most liquidity-sensitive asset, with $70K key support amid inflation and bond yield shifts."
       },
       {
-        "parole": "cloud outage",
+        "parole": "flashing warning",
         "fonti": 3,
-        "esempio": "Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses"
-      },
-      {
-        "parole": "housing starts",
-        "fonti": 3,
-        "esempio": "U.S. Housing Starts Dropped Again in September"
+        "esempio": "Healthcare Stocks Are Rallying, and Flashing a Warning for the Rest of the Market"
       }
     ],
     "mercati_previsione_mosse": [
       {
         "mercato": "Kalshi",
-        "domanda": "Will the 30Y U.S. Treasury yield be above 4.49% on Dec 31, 2027? — 4.5% or above",
-        "prob": 0.36,
-        "var_giorno": -0.55
+        "domanda": "Will the 30Y U.S. Treasury yield be above 3.99% on Dec 31, 2027? — 4% or above",
+        "prob": 0.26,
+        "var_giorno": -0.71
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will Anthropic have the best AI model at the end of October 2026?",
-        "prob": 0.195,
-        "var_giorno": -0.19
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Will Russia capture Orikhiv by March 31, 2027?",
-        "prob": 0.19,
-        "var_giorno": -0.185
+        "domanda": "Russia-Ukraine peace talks by November 30, 2026?",
+        "prob": 0.675,
+        "var_giorno": 0.49
       },
       {
         "mercato": "Kalshi",
         "domanda": "Will the 30Y U.S. Treasury yield be above 3.49% on Dec 31, 2027? — 3.5% or above",
-        "prob": 0.97,
-        "var_giorno": 0.16
+        "prob": 0.58,
+        "var_giorno": -0.39
+      },
+      {
+        "mercato": "Kalshi",
+        "domanda": "Will United Airlines Holdings Inc. report Above 188 million passengers flown in 2026? — Above 188 million",
+        "prob": 0.3,
+        "var_giorno": -0.2
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Israel x Iran ceasefire continues through December 31?",
-        "prob": 0.47,
-        "var_giorno": -0.115
+        "domanda": "Russia-Ukraine peace talks by October 31, 2026?",
+        "prob": 0.055,
+        "var_giorno": -0.185
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "US x Iran ceasefire continues through October 31?",
+        "prob": 0.65,
+        "var_giorno": -0.165
       }
     ],
     "insider_gruppi": [
@@ -379,15 +367,15 @@
         "ticker": "BPRE",
         "emittente": "Bluerock Private Real Estate Fund",
         "insider": 3,
-        "valore_totale": 16447690,
+        "valore_totale": 14592940,
         "ultima_operazione": "2026-10-16",
         "chi": [
           "KAMFAR RAMIN (consigliere)",
           "MacDonald Ryan S (consigliere)",
           "Ruddy Jordan B. (President)"
         ],
-        "rendimento_1m": 0.042,
-        "dal_massimo_12m": -0.274,
+        "rendimento_1m": 0.01,
+        "dal_massimo_12m": -0.281,
         "sopra_media200": false,
         "sp500": false
       },
@@ -401,8 +389,8 @@
           "Cummins Wes (consigliere, CEO; Chairman)",
           "Zhang Jason Gechen (President)"
         ],
-        "rendimento_1m": -0.314,
-        "dal_massimo_12m": -0.611,
+        "rendimento_1m": -0.265,
+        "dal_massimo_12m": -0.577,
         "sopra_media200": false,
         "sp500": false
       },
@@ -416,25 +404,24 @@
           "BAILLY R JEFFREY (consigliere)",
           "Malik Muhammad Shahbaz (Senior VP, BAS)"
         ],
-        "rendimento_1m": 0.024,
-        "dal_massimo_12m": -0.241,
+        "rendimento_1m": -0.003,
+        "dal_massimo_12m": -0.239,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "AGMB",
-        "emittente": "AgomAb Therapeutics NV",
-        "insider": 3,
-        "valore_totale": 217440,
-        "ultima_operazione": "2026-10-08",
+        "ticker": "DX",
+        "emittente": "DYNEX CAPITAL INC",
+        "insider": 2,
+        "valore_totale": 167260,
+        "ultima_operazione": "2026-10-20",
         "chi": [
-          "Epstein David R (consigliere)",
-          "Kemula Pierre Thadee Victor (Chief Financial Officer)",
-          "Knotnerus Tim Jasper (consigliere, Chief Executive Officer)"
+          "Popenoe Smriti Laxman (consigliere, Co-CEO and President)",
+          "Sartori Michael Andrew (Chief Financial Officer)"
         ],
-        "rendimento_1m": -0.254,
-        "dal_massimo_12m": -0.51,
-        "sopra_media200": null,
+        "rendimento_1m": -0.086,
+        "dal_massimo_12m": -0.167,
+        "sopra_media200": false,
         "sp500": false
       },
       {
@@ -451,44 +438,37 @@
           "Chin Yung-Pei (EVP and Co-COO)"
         ],
         "rendimento_1m": -0.045,
-        "dal_massimo_12m": -0.125,
+        "dal_massimo_12m": -0.111,
         "sopra_media200": true,
         "sp500": false
       },
       {
-        "ticker": "AHRT",
-        "emittente": "AH Realty Trust, Inc.",
+        "ticker": "YORW",
+        "emittente": "YORK WATER CO",
         "insider": 2,
-        "valore_totale": 17936,
-        "ultima_operazione": "2026-10-08",
+        "valore_totale": 41000,
+        "ultima_operazione": "2026-10-20",
         "chi": [
-          "BIGMAN THEODORE (consigliere)",
-          "Wimbush Frederick Blair (consigliere)"
+          "Brossman Douglas S (consigliere)",
+          "Velazquez David M (consigliere)"
         ],
-        "rendimento_1m": -0.036,
-        "dal_massimo_12m": -0.152,
+        "rendimento_1m": -0.025,
+        "dal_massimo_12m": -0.11,
         "sopra_media200": false,
         "sp500": false
       }
     ],
     "insider_nel_calo": [
       {
-        "ticker": "AGMB",
-        "rendimento_1m": -0.254,
-        "dal_massimo_12m": -0.51,
-        "sopra_media200": null,
-        "sp500": false
-      },
-      {
         "ticker": "APLD",
-        "rendimento_1m": -0.314,
-        "dal_massimo_12m": -0.611,
+        "rendimento_1m": -0.265,
+        "dal_massimo_12m": -0.577,
         "sopra_media200": false,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 15,
+    "congresso_comunicazioni": 14,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
       "settimana": "2026-10-11",
@@ -507,14 +487,24 @@
     ],
     "posizioni_e_segnali": [
       {
+        "ticker": "AAOI",
+        "origine": "posizione aperta",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": -0.277,
+        "sopra_media200": false,
+        "vol_implicita": 110.9
+      },
+      {
         "ticker": "XBI",
         "origine": "posizione aperta",
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.032,
+        "mese": -0.056,
         "sopra_media200": true,
-        "vol_implicita": 36.3
+        "vol_implicita": 37.5
       },
       {
         "ticker": "VST",
@@ -522,47 +512,30 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": 0.069,
-        "sopra_media200": false,
-        "vol_implicita": 54.3
-      },
-      {
-        "ticker": "AAOI",
-        "origine": "posizione aperta",
-        "da_notare": [
-          "niente di nuovo"
-        ],
-        "mese": -0.294,
-        "sopra_media200": false,
-        "vol_implicita": 107.5
-      },
-      {
-        "ticker": "XLV",
-        "origine": "segnale rottura dei massimi",
-        "da_notare": [
-          "niente di nuovo"
-        ],
-        "mese": 0.064,
+        "mese": 0.112,
         "sopra_media200": true,
-        "vol_implicita": 20.9
+        "vol_implicita": 54.6
       },
       {
         "ticker": "XLP",
         "origine": "segnale rottura dei massimi",
         "da_notare": [
-          "tema «Inflazione» in calo"
+          "niente di nuovo"
         ],
-        "mese": 0.071,
+        "mese": 0.053,
         "sopra_media200": true,
-        "vol_implicita": 17.9
+        "vol_implicita": 18.2
       }
     ],
     "registro_casi": {
-      "nuovi_oggi": [],
+      "nuovi_oggi": [
+        "tema nascente: Elettricità e nucleare → NLR",
+        "insider in gruppo: DX → DX"
+      ],
       "bilancio": [
         {
           "tipo": "insider in gruppo",
-          "casi": 11,
+          "casi": 12,
           "chiusi_20": 0,
           "diff_20": null,
           "giudizio": "in raccolta"
@@ -583,7 +556,7 @@
         },
         {
           "tipo": "tema nascente",
-          "casi": 5,
+          "casi": 6,
           "chiusi_20": 0,
           "diff_20": null,
           "giudizio": "in raccolta"
@@ -599,23 +572,22 @@
     },
     "fonti_non_raggiungibili": [
       "Yahoo Finance",
-      "r/investing",
-      "r/StockMarket",
-      "GDELT (Dazi e commercio)",
-      "GDELT (Banche sotto pressione)"
+      "r/options",
+      "GDELT (Quantum, spazio e droni)",
+      "GDELT (Biotech e farmaci)"
     ]
   },
   "radar_movimenti": {
     "stato": "in prova, solo registro",
-    "data": "2026-10-20",
+    "data": "2026-10-21",
     "completo": true,
     "problemi": {
       "dati_non_validi": {
-        "varianza dell'evento negativa": 335,
-        "volatilità di base negativa": 265,
+        "varianza dell'evento negativa": 342,
+        "volatilità di base negativa": 306,
         "meno di due scadenze che contengono l'evento": 24
       },
-      "orario_ignoto": "573 titoli nella finestra senza orario (trattati come prima dell'apertura)"
+      "orario_ignoto": "589 titoli nella finestra senza orario (trattati come prima dell'apertura)"
     },
     "nota": "Solo informazione per l'agente: nessun ordine e nessuna regola nuova. Piano: strategia/piano-radar-movimenti.md",
     "soglie": {
@@ -645,21 +617,21 @@
         "universo": 518,
         "con_metriche": 518,
         "rating_ok": 517,
-        "utili_prossimi_60_giorni": 470,
-        "in_finestra": 387,
-        "cancello_ok": 89,
-        "validi": 85,
-        "economici": 19,
-        "cari": 34,
-        "dato_non_valido": 35,
-        "storico_insufficiente": 4,
-        "senza_data_utili": 48,
+        "utili_prossimi_60_giorni": 453,
+        "in_finestra": 354,
+        "cancello_ok": 95,
+        "validi": 90,
+        "economici": 23,
+        "cari": 33,
+        "dato_non_valido": 36,
+        "storico_insufficiente": 5,
+        "senza_data_utili": 65,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 158,
-          "liquidità: open interest": 104,
-          "dato non valido: varianza dell'evento negativa": 29,
-          "dato non valido: volatilità di base negativa": 6,
-          "storico insufficiente: storico insufficiente": 4,
+          "liquidità: forchetta": 133,
+          "liquidità: open interest": 89,
+          "dato non valido: varianza dell'evento negativa": 26,
+          "dato non valido: volatilità di base negativa": 10,
+          "storico insufficiente: storico insufficiente": 5,
           "liquidità: liquidity rating": 1
         }
       },
@@ -667,23 +639,23 @@
         "universo": 2000,
         "con_metriche": 2000,
         "rating_ok": 1697,
-        "utili_prossimi_60_giorni": 1811,
-        "in_finestra": 1527,
-        "cancello_ok": 47,
-        "validi": 41,
-        "economici": 11,
-        "cari": 17,
-        "dato_non_valido": 589,
-        "storico_insufficiente": 6,
-        "senza_data_utili": 189,
+        "utili_prossimi_60_giorni": 1795,
+        "in_finestra": 1543,
+        "cancello_ok": 54,
+        "validi": 47,
+        "economici": 9,
+        "cari": 20,
+        "dato_non_valido": 636,
+        "storico_insufficiente": 7,
+        "senza_data_utili": 205,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 692,
-          "dato non valido: varianza dell'evento negativa": 306,
-          "dato non valido: volatilità di base negativa": 259,
-          "liquidità: liquidity rating": 143,
-          "liquidità: open interest": 56,
+          "liquidità: forchetta": 644,
+          "dato non valido: varianza dell'evento negativa": 316,
+          "dato non valido: volatilità di base negativa": 296,
+          "liquidità: liquidity rating": 146,
+          "liquidità: open interest": 63,
           "dato non valido: meno di due scadenze che contengono l'evento": 24,
-          "storico insufficiente: storico insufficiente": 6
+          "storico insufficiente: storico insufficiente": 7
         }
       }
     },
@@ -691,100 +663,144 @@
       {
         "segmento": "large",
         "fascia": "1-3",
-        "validi": 15,
-        "economici": 5,
-        "cari": 4,
-        "mediana_rapporto": 0.916,
-        "mediana_implicito_su_straddle": 0.843
+        "validi": 19,
+        "economici": 4,
+        "cari": 5,
+        "mediana_rapporto": 0.984,
+        "mediana_implicito_su_straddle": 0.727
       },
       {
         "segmento": "large",
         "fascia": "4-7",
-        "validi": 45,
+        "validi": 40,
         "economici": 8,
         "cari": 19,
-        "mediana_rapporto": 1.131,
-        "mediana_implicito_su_straddle": 0.629
+        "mediana_rapporto": 1.196,
+        "mediana_implicito_su_straddle": 0.691
       },
       {
         "segmento": "large",
         "fascia": "8-15",
-        "validi": 25,
-        "economici": 6,
-        "cari": 11,
-        "mediana_rapporto": 1.142,
-        "mediana_implicito_su_straddle": 0.69
+        "validi": 31,
+        "economici": 11,
+        "cari": 9,
+        "mediana_rapporto": 0.919,
+        "mediana_implicito_su_straddle": 0.635
       },
       {
         "segmento": "small/mid",
         "fascia": "1-3",
-        "validi": 3,
+        "validi": 2,
         "economici": 0,
-        "cari": 2,
-        "mediana_rapporto": 1.353,
-        "mediana_implicito_su_straddle": 0.745
+        "cari": 0,
+        "mediana_rapporto": 0.864,
+        "mediana_implicito_su_straddle": 0.732
       },
       {
         "segmento": "small/mid",
         "fascia": "4-7",
         "validi": 8,
         "economici": 5,
-        "cari": 1,
-        "mediana_rapporto": 0.746,
-        "mediana_implicito_su_straddle": 0.687
+        "cari": 2,
+        "mediana_rapporto": 0.688,
+        "mediana_implicito_su_straddle": 0.705
       },
       {
         "segmento": "small/mid",
         "fascia": "8-15",
-        "validi": 30,
-        "economici": 6,
-        "cari": 14,
-        "mediana_rapporto": 1.119,
-        "mediana_implicito_su_straddle": 0.645
+        "validi": 37,
+        "economici": 4,
+        "cari": 18,
+        "mediana_rapporto": 1.184,
+        "mediana_implicito_su_straddle": 0.727
       }
     ],
-    "fotografie": 1914,
+    "fotografie": 1897,
     "registro_eventi": {
-      "righe": 2043,
-      "misurati": 60,
-      "misurati_stasera": 37
+      "righe": 2132,
+      "misurati": 91,
+      "misurati_stasera": 51
     },
     "verdetto_per_fascia": [
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "1-3",
-        "eventi": 28,
-        "quota_oltre_tutti": 0.286,
-        "mediana_realizzato_su_implicito": 0.714,
-        "economici": 9,
-        "quota_oltre_economici": 0.444,
-        "differenza_punti": 15.8
+        "eventi": 37,
+        "quota_oltre_tutti": 0.243,
+        "mediana_realizzato_su_implicito": 0.657,
+        "economici": 10,
+        "quota_oltre_economici": 0.4,
+        "differenza_punti": 15.7
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "1-3",
+        "eventi": 2,
+        "quota_oltre_tutti": 0.0,
+        "mediana_realizzato_su_implicito": 0.35,
+        "economici": 0,
+        "quota_oltre_economici": null,
+        "differenza_punti": null
       },
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "4-7",
-        "eventi": 16,
-        "quota_oltre_tutti": 0.25,
-        "mediana_realizzato_su_implicito": 0.481,
+        "eventi": 23,
+        "quota_oltre_tutti": 0.217,
+        "mediana_realizzato_su_implicito": 0.534,
         "economici": 6,
         "quota_oltre_economici": 0.333,
-        "differenza_punti": 8.3
+        "differenza_punti": 11.6
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "4-7",
+        "eventi": 3,
+        "quota_oltre_tutti": 0.333,
+        "mediana_realizzato_su_implicito": 0.647,
+        "economici": 1,
+        "quota_oltre_economici": 1.0,
+        "differenza_punti": 66.7
+      },
+      {
+        "segmento": "large",
+        "stagione": "2026-T4",
+        "fascia": "8-15",
+        "eventi": 3,
+        "quota_oltre_tutti": 0.0,
+        "mediana_realizzato_su_implicito": 0.471,
+        "economici": 2,
+        "quota_oltre_economici": 0.0,
+        "differenza_punti": 0.0
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "8-15",
+        "eventi": 2,
+        "quota_oltre_tutti": 0.0,
+        "mediana_realizzato_su_implicito": 0.503,
+        "economici": 1,
+        "quota_oltre_economici": 0.0,
+        "differenza_punti": 0.0
       }
     ],
-    "secondi": 148.3,
+    "secondi": 110.9,
     "tappe_secondi": {
-      "universo": 0.1,
-      "metriche": 3.9,
-      "dolthub": 81.5,
-      "implicito": 81.8,
-      "catene": 121.4,
-      "cancello": 124.8,
-      "prezzi": 142.9,
-      "storico": 143.7,
-      "semaforo_b": 143.7,
-      "registri": 148.2
+      "universo": 0.2,
+      "metriche": 6.9,
+      "dolthub": 23.3,
+      "implicito": 23.6,
+      "catene": 68.8,
+      "cancello": 73.8,
+      "prezzi": 106.6,
+      "storico": 107.2,
+      "semaforo_b": 107.2,
+      "registri": 110.8
     }
   }
 }

@@ -1,185 +1,176 @@
 {
-  "generato": "2026-10-22 22:44",
+  "generato": "2026-10-23 22:46",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
       "cot_sp": {
-        "data_rapporto": "2026-10-13",
-        "indice": 69.1,
+        "data_rapporto": "2026-10-20",
+        "indice": 68.6,
         "sopra_soglia": false
       },
-      "dati_al": "2026-10-22",
+      "dati_al": "2026-10-23",
       "filtro_mercato_ok": true,
       "posizioni_aperte": [],
       "posti_liberi": 3,
       "segnali": [],
       "vicini_al_segnale": [
         {
-          "etf": "XLP",
-          "nome": "Consumi di base",
-          "prezzo": 89.99,
-          "massimo_55s": 87.75,
-          "distanza_dal_massimo": 2.6,
-          "sedute_dall_ultimo_massimo": 2,
-          "rialzo_1m": 9.2,
-          "rialzo_6m": 9.3,
+          "etf": "XLE",
+          "nome": "Energia",
+          "prezzo": 69.33,
+          "massimo_55s": 68.24,
+          "distanza_dal_massimo": 1.6,
+          "sedute_dall_ultimo_massimo": 5,
+          "rialzo_1m": 10.8,
+          "rialzo_6m": 23.5,
           "sopra_media50": true,
           "ok_massimo": true,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-10-16T00:00:00.000",
-          "sedute_dal_segnale": 4,
+          "ultimo_segnale": "2026-08-10T00:00:00.000",
+          "sedute_dal_segnale": 53,
           "segnale_oggi": false
         },
         {
           "etf": "XLV",
           "nome": "Salute",
-          "prezzo": 181.3,
-          "massimo_55s": 179.82,
-          "distanza_dal_massimo": 0.8,
-          "sedute_dall_ultimo_massimo": 2,
-          "rialzo_1m": 7.4,
-          "rialzo_6m": 25.0,
-          "sopra_media50": true,
-          "ok_massimo": true,
-          "ok_mercato": true,
-          "ultimo_segnale": "2026-10-15T00:00:00.000",
-          "sedute_dal_segnale": 5,
-          "segnale_oggi": false
-        },
-        {
-          "etf": "XLE",
-          "nome": "Energia",
-          "prezzo": 67.57,
-          "massimo_55s": 68.24,
-          "distanza_dal_massimo": -1.0,
-          "sedute_dall_ultimo_massimo": 4,
-          "rialzo_1m": 8.3,
-          "rialzo_6m": 20.2,
+          "prezzo": 179.28,
+          "massimo_55s": 181.3,
+          "distanza_dal_massimo": -1.1,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 5.5,
+          "rialzo_6m": 25.4,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-08-10T00:00:00.000",
-          "sedute_dal_segnale": 52,
+          "ultimo_segnale": "2026-10-15T00:00:00.000",
+          "sedute_dal_segnale": 6,
+          "segnale_oggi": false
+        },
+        {
+          "etf": "XLP",
+          "nome": "Consumi di base",
+          "prezzo": 88.26,
+          "massimo_55s": 89.99,
+          "distanza_dal_massimo": -1.9,
+          "sedute_dall_ultimo_massimo": 1,
+          "rialzo_1m": 8.0,
+          "rialzo_6m": 7.5,
+          "sopra_media50": true,
+          "ok_massimo": false,
+          "ok_mercato": true,
+          "ultimo_segnale": "2026-10-16T00:00:00.000",
+          "sedute_dal_segnale": 5,
           "segnale_oggi": false
         },
         {
           "etf": "XLU",
           "nome": "Utility",
-          "prezzo": 42.87,
+          "prezzo": 42.56,
           "massimo_55s": 43.99,
-          "distanza_dal_massimo": -2.5,
-          "sedute_dall_ultimo_massimo": 63,
-          "rialzo_1m": 7.8,
-          "rialzo_6m": -5.7,
+          "distanza_dal_massimo": -3.2,
+          "sedute_dall_ultimo_massimo": 64,
+          "rialzo_1m": 8.1,
+          "rialzo_6m": -6.6,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
           "ultimo_segnale": "2026-07-24T00:00:00.000",
-          "sedute_dal_segnale": 63,
+          "sedute_dal_segnale": 64,
           "segnale_oggi": false
         },
         {
-          "etf": "XLF",
-          "nome": "Finanziari",
-          "prezzo": 56.65,
-          "massimo_55s": 58.35,
-          "distanza_dal_massimo": -2.9,
-          "sedute_dall_ultimo_massimo": 34,
-          "rialzo_1m": 3.9,
-          "rialzo_6m": 10.1,
+          "etf": "XLB",
+          "nome": "Materiali",
+          "prezzo": 51.31,
+          "massimo_55s": 53.42,
+          "distanza_dal_massimo": -4.0,
+          "sedute_dall_ultimo_massimo": 41,
+          "rialzo_1m": 3.3,
+          "rialzo_6m": -0.3,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": true,
-          "ultimo_segnale": "2026-06-12T00:00:00.000",
+          "ultimo_segnale": "2026-06-15T00:00:00.000",
           "sedute_dal_segnale": 91,
           "segnale_oggi": false
         }
       ]
     },
     "rimbalzo": {
-      "dati_al": "2026-10-22",
+      "dati_al": "2026-10-23",
       "filtro_mercato_ok": true,
       "posizioni_aperte": [
         {
           "etf": "XBI",
           "spread": "152/165",
           "scadenza": "2026-11-20",
-          "prezzo": 151.64,
+          "prezzo": 149.54,
           "pagato": 4.55,
-          "valore": 3.88,
-          "risultato_pct": -15,
-          "giorni": 29,
+          "valore": 3.72,
+          "risultato_pct": -18,
+          "giorni": 28,
           "azione": "tieni fino alla scadenza"
         }
       ],
       "posti_liberi": 2,
-      "segnali": [
-        {
-          "etf": "SMH",
-          "nome": "Semiconduttori",
-          "prezzo": 523.35,
-          "motivo": "RSI 2 a 15",
-          "contratti": 0,
-          "note": "spread su SMH: 1,670 $ = 33% del capitale, troppo caro; salta il segnale"
-        }
-      ],
+      "segnali": [],
       "vicini_al_segnale": [
         {
-          "etf": "EEM",
-          "nome": "Emergenti",
-          "prezzo": 61.72,
-          "rsi2": 8.7,
-          "sedute_in_calo": 1,
-          "var_3gg": -2.5,
-          "dist_media200": -2.9,
+          "etf": "XLY",
+          "nome": "Consumi discrezionali",
+          "prezzo": 113.1,
+          "rsi2": 11.8,
+          "sedute_in_calo": 2,
+          "var_3gg": -2.1,
+          "dist_media200": -2.0,
           "sopra_media200": false,
           "segnale": false,
-          "motivo": "RSI 2 a 9"
+          "motivo": "RSI 2 a 12"
         },
         {
-          "etf": "SMH",
-          "nome": "Semiconduttori",
-          "prezzo": 523.35,
-          "rsi2": 14.9,
-          "sedute_in_calo": 1,
-          "var_3gg": -4.6,
-          "dist_media200": 1.7,
-          "sopra_media200": true,
-          "segnale": true,
-          "motivo": "RSI 2 a 15"
-        },
-        {
-          "etf": "QQQ",
-          "nome": "Nasdaq 100",
-          "prezzo": 704.47,
-          "rsi2": 17.9,
-          "sedute_in_calo": 1,
-          "var_3gg": -1.9,
-          "dist_media200": 4.3,
-          "sopra_media200": true,
+          "etf": "XLI",
+          "nome": "Industriali",
+          "prezzo": 164.62,
+          "rsi2": 12.0,
+          "sedute_in_calo": 2,
+          "var_3gg": -1.3,
+          "dist_media200": -4.5,
+          "sopra_media200": false,
           "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "XLK",
-          "nome": "Tecnologia",
-          "prezzo": 182.34,
-          "rsi2": 21.4,
-          "sedute_in_calo": 1,
-          "var_3gg": -1.9,
-          "dist_media200": 8.5,
-          "sopra_media200": true,
-          "segnale": false,
-          "motivo": ""
+          "motivo": "RSI 2 a 12"
         },
         {
           "etf": "SPY",
           "nome": "S&P 500",
-          "prezzo": 763.96,
-          "rsi2": 24.3,
-          "sedute_in_calo": 1,
-          "var_3gg": -0.3,
-          "dist_media200": 5.6,
+          "prezzo": 759.97,
+          "rsi2": 15.0,
+          "sedute_in_calo": 2,
+          "var_3gg": -1.2,
+          "dist_media200": 5.0,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "EFA",
+          "nome": "Paesi sviluppati ex USA",
+          "prezzo": 102.63,
+          "rsi2": 17.1,
+          "sedute_in_calo": 2,
+          "var_3gg": -1.0,
+          "dist_media200": 0.4,
+          "sopra_media200": true,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "QQQ",
+          "nome": "Nasdaq 100",
+          "prezzo": 704.4,
+          "rsi2": 17.8,
+          "sedute_in_calo": 2,
+          "var_3gg": -1.8,
+          "dist_media200": 4.2,
           "sopra_media200": true,
           "segnale": false,
           "motivo": ""
@@ -188,17 +179,17 @@
     }
   },
   "correzioni": {
-    "dati_al": "2026-10-22",
+    "dati_al": "2026-10-23",
     "semaforo": "R1",
     "significato": "verde: sopra la media a 200, piano normale",
-    "spx": 7663.43,
-    "media200": 7287.8,
-    "distanza_media200_pct": 5.2,
+    "spx": 7623.68,
+    "media200": 7291.31,
+    "distanza_media200_pct": 4.6,
     "media200_in_calo": false,
-    "media50": 7703.15,
-    "calo_dal_massimo_52s_pct": -2.0,
-    "sedute_dal_massimo": 12,
-    "vix": 19.03,
+    "media50": 7699.64,
+    "calo_dal_massimo_52s_pct": -2.5,
+    "sedute_dal_massimo": 13,
+    "vix": 19.45,
     "vix_max_60_sedute": 19.99,
     "vix_sopra_40_nelle_ultime_120": false,
     "disoccupazione": {
@@ -215,40 +206,41 @@
     "report": "https://claude.ai/artifact/1zifTFsi8fAVzHz2gLhxZA"
   },
   "fine_mese": {
-    "dati_al": "2026-10-22",
-    "spy": 763.96,
-    "sedute_alla_fine_del_mese": 6,
+    "dati_al": "2026-10-23",
+    "spy": 759.97,
+    "sedute_alla_fine_del_mese": 5,
     "ultima_seduta": "2026-10-30",
-    "azioni_da_comprare": 0,
-    "stop_indicativo": null,
-    "spy_meno_tlt_da_inizio_mese_pct": -5.34,
+    "azioni_da_comprare": 3,
+    "stop_indicativo": 721.97,
+    "spy_meno_tlt_da_inizio_mese_pct": -5.35,
     "soglia_pct": -2.88,
-    "giorno_del_segnale": false,
-    "segnale_attivo": false,
+    "giorno_del_segnale": true,
+    "segnale_attivo": true,
     "avvisi": [],
     "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
-    "generato": "2026-10-22 22:11",
-    "giornata": "2026-10-22",
+    "generato": "2026-10-23 22:05",
+    "giornata": "2026-10-23",
     "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "IA che sostituisce il lavoro: arrivata alla massa (copertura mondiale doppia del solito) (8 titoli, 1.88× il solito, 7 fonti)",
-      "Parole nuove in più fonti: «spacex tesla» (3), «cancer vaccine» (3), «claims near» (3)",
-      "Kalshi: «Will the 30Y U.S. Treasury yield be above 5.49% on Dec 31, 2027? — 5.5% or above» 91% (+59 pt in un giorno)",
-      "Kalshi: «Will the 10Y U.S. Treasury yield be above 2.24% on Dec 31, 2027? — 2.25% or above» 61% (-36 pt in un giorno)",
-      "Insider in gruppo: BPRE (3 insider, 15.513.781 $), APLD (2 insider, 6.664.686 $), DX (3 insider, 267.230 $), YORW (2 insider, 41.000 $)",
-      "Insider che comprano nel calo: APLD (-30% nel mese), RAPP (-22% nel mese)",
-      "Ricerche Google in salita: «interest rates»",
-      "Registro dei casi: 2 nuovi casi annotati per il test"
+      "Bolla e crollo: arrivata alla massa (copertura mondiale doppia del solito) (36 titoli, 1.58× il solito, 14 fonti)",
+      "Dazi e commercio: nascente (origine o social, non ancora sulle testate) (8 titoli, 1.67× il solito, 6 fonti)",
+      "Difesa e cybersicurezza: nascente (origine o social, non ancora sulle testate) (8 titoli, 1.52× il solito, 4 fonti)",
+      "Parole nuove in più fonti: «american express» (5), «core inflation» (3), «russia ukraine» (3), «rising costs» (3)",
+      "Kalshi: «Will the 10Y U.S. Treasury yield be above 6.99% on Dec 31, 2027? — 7% or above» 9% (-68 pt in un giorno)",
+      "Kalshi: «Will the 30Y U.S. Treasury yield be above 2.24% on Dec 31, 2027? — 2.25% or above» 42% (-43 pt in un giorno)",
+      "Insider in gruppo: BPRE (3 insider, 13.544.340 $), APLD (2 insider, 6.664.686 $), RAPP (5 insider, 1.566.347 $), DX (3 insider, 267.230 $)",
+      "Insider che comprano nel calo: APLD (-33% nel mese), RAPP (-23% nel mese)",
+      "Registro dei casi: 3 nuovi casi annotati per il test"
     ],
     "traguardi": [],
     "stato_test": {
-      "temi_giorni_storico": 15,
+      "temi_giorni_storico": 16,
       "temi_pronti": true,
       "registro": {
         "insider in gruppo": {
-          "casi": 12,
+          "casi": 13,
           "chiusi_20": 0,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -269,7 +261,14 @@
           "diff_20": null
         },
         "tema nascente": {
-          "casi": 6,
+          "casi": 7,
+          "chiusi_20": 0,
+          "chiusi_60": 0,
+          "giudizio": "in raccolta",
+          "diff_20": null
+        },
+        "tema arrivato alla massa": {
+          "casi": 2,
           "chiusi_20": 0,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -281,78 +280,100 @@
           "chiusi_60": 0,
           "giudizio": "in raccolta",
           "diff_20": null
-        },
-        "tema arrivato alla massa": {
-          "casi": 1,
-          "chiusi_20": 0,
-          "chiusi_60": 0,
-          "giudizio": "in raccolta",
-          "diff_20": null
         }
       }
     },
     "temi_in_crescita": [
       {
-        "tema": "IA che sostituisce il lavoro",
+        "tema": "Bolla e crollo",
         "fase": "arrivata alla massa (copertura mondiale doppia del solito)",
+        "titoli": 36,
+        "rapporto": 1.58,
+        "esempio": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets"
+      },
+      {
+        "tema": "Dazi e commercio",
+        "fase": "nascente (origine o social, non ancora sulle testate)",
         "titoli": 8,
-        "rapporto": 1.88,
-        "esempio": "Major US Banks Are Detecting Unauthorized AI Agents Accessing Customer Accounts"
+        "rapporto": 1.67,
+        "esempio": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338"
+      },
+      {
+        "tema": "Difesa e cybersicurezza",
+        "fase": "nascente (origine o social, non ancora sulle testate)",
+        "titoli": 8,
+        "rapporto": 1.52,
+        "esempio": "Defense giant Saab sees orders triple after Gripen fighter jet deal with Ukraine"
       }
     ],
     "narrative_emergenti": [
       {
-        "parole": "spacex tesla",
-        "fonti": 3,
-        "esempio": "SpaceX and Tesla Consider Merger"
+        "parole": "american express",
+        "fonti": 5,
+        "esempio": "American Express is slashing around 3,500 jobs globally in an attempt to put a cap on rising costs"
       },
       {
-        "parole": "cancer vaccine",
+        "parole": "core inflation",
         "fonti": 3,
-        "esempio": "Moderna’s cancer vaccine hits its targets, but an embargo breach rattles investors and the stock tumbles"
+        "esempio": "Global Market: Japan’s core inflation accelerates, putting BOJ rate hikes in focus"
       },
       {
-        "parole": "claims near",
+        "parole": "russia ukraine",
         "fonti": 3,
-        "esempio": "Jobless claims near the lowest since the 1960s as low-fire trend continues"
+        "esempio": "First Lady Melania Trump Secures Ceasefire Between Russia and Ukraine, Localized to Oleshky"
+      },
+      {
+        "parole": "rising costs",
+        "fonti": 3,
+        "esempio": "Huntington bakery struggles with slow sales and rising costs"
+      },
+      {
+        "parole": "russian diesel",
+        "fonti": 3,
+        "esempio": "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal"
+      },
+      {
+        "parole": "consumer sentiment",
+        "fonti": 3,
+        "esempio": "Consumer Sentiment Declined Slightly in October"
       }
     ],
     "mercati_previsione_mosse": [
       {
         "mercato": "Kalshi",
-        "domanda": "Will the 30Y U.S. Treasury yield be above 5.49% on Dec 31, 2027? — 5.5% or above",
-        "prob": 0.91,
-        "var_giorno": 0.59
+        "domanda": "Will the 10Y U.S. Treasury yield be above 6.99% on Dec 31, 2027? — 7% or above",
+        "prob": 0.09,
+        "var_giorno": -0.68
       },
       {
         "mercato": "Kalshi",
-        "domanda": "Will the 10Y U.S. Treasury yield be above 2.24% on Dec 31, 2027? — 2.25% or above",
-        "prob": 0.61,
-        "var_giorno": -0.36
+        "domanda": "Will the 30Y U.S. Treasury yield be above 2.24% on Dec 31, 2027? — 2.25% or above",
+        "prob": 0.42,
+        "var_giorno": -0.43
       },
       {
         "mercato": "Kalshi",
-        "domanda": "Will the 30Y U.S. Treasury yield be above 2.99% on Dec 31, 2027? — 3% or above",
-        "prob": 0.55,
+        "domanda": "Will the 30Y U.S. Treasury yield be above 4.24% on Dec 31, 2027? — 4.25% or above",
+        "prob": 0.87,
+        "var_giorno": 0.42
+      },
+      {
+        "mercato": "Kalshi",
+        "domanda": "Will the 30Y U.S. Treasury yield be above 4.74% on Dec 31, 2027? — 4.75% or above",
+        "prob": 0.5,
+        "var_giorno": -0.4
+      },
+      {
+        "mercato": "Kalshi",
+        "domanda": "Will the 30Y U.S. Treasury yield be above 2.74% on Dec 31, 2027? — 2.75% or above",
+        "prob": 0.63,
         "var_giorno": -0.35
       },
       {
         "mercato": "Kalshi",
-        "domanda": "Will the 10Y U.S. Treasury yield be above 4.99% on Dec 31, 2027? — 5% or above",
-        "prob": 0.56,
-        "var_giorno": -0.34
-      },
-      {
-        "mercato": "Kalshi",
-        "domanda": "Will the 10Y U.S. Treasury yield be above 2.99% on Dec 31, 2027? — 3% or above",
-        "prob": 0.67,
-        "var_giorno": -0.24
-      },
-      {
-        "mercato": "Kalshi",
-        "domanda": "Will the 10Y U.S. Treasury yield be above 5.24% on Dec 31, 2027? — 5.25% or above",
-        "prob": 0.67,
-        "var_giorno": -0.19
+        "domanda": "Will the 30Y U.S. Treasury yield be above 3.24% on Dec 31, 2027? — 3.25% or above",
+        "prob": 0.66,
+        "var_giorno": -0.32
       }
     ],
     "insider_gruppi": [
@@ -360,15 +381,15 @@
         "ticker": "BPRE",
         "emittente": "Bluerock Private Real Estate Fund",
         "insider": 3,
-        "valore_totale": 15513781,
+        "valore_totale": 13544340,
         "ultima_operazione": "2026-10-21",
         "chi": [
           "KAMFAR RAMIN (consigliere)",
           "MacDonald Ryan S (consigliere)",
           "Ruddy Jordan B. (President)"
         ],
-        "rendimento_1m": 0.017,
-        "dal_massimo_12m": -0.264,
+        "rendimento_1m": 0.021,
+        "dal_massimo_12m": -0.265,
         "sopra_media200": false,
         "sp500": false
       },
@@ -382,8 +403,26 @@
           "Cummins Wes (consigliere, CEO; Chairman)",
           "Zhang Jason Gechen (President)"
         ],
-        "rendimento_1m": -0.299,
-        "dal_massimo_12m": -0.616,
+        "rendimento_1m": -0.326,
+        "dal_massimo_12m": -0.632,
+        "sopra_media200": false,
+        "sp500": false
+      },
+      {
+        "ticker": "RAPP",
+        "emittente": "Rapport Therapeutics, Inc.",
+        "insider": 5,
+        "valore_totale": 1566347,
+        "ultima_operazione": "2026-10-22",
+        "chi": [
+          "Ignelzi Troy A. (Chief Financial Officer)",
+          "MARAGANORE JOHN (consigliere)",
+          "PAUL STEVEN M (consigliere)",
+          "Silva Paul M (consigliere)",
+          "Young Wendy B. (consigliere)"
+        ],
+        "rendimento_1m": -0.234,
+        "dal_massimo_12m": -0.506,
         "sopra_media200": false,
         "sp500": false
       },
@@ -398,8 +437,8 @@
           "Popenoe Smriti Laxman (consigliere, Co-CEO and President)",
           "Sartori Michael Andrew (Chief Financial Officer)"
         ],
-        "rendimento_1m": -0.058,
-        "dal_massimo_12m": -0.168,
+        "rendimento_1m": -0.022,
+        "dal_massimo_12m": -0.165,
         "sopra_media200": false,
         "sp500": false
       },
@@ -413,8 +452,8 @@
           "Brossman Douglas S (consigliere)",
           "Velazquez David M (consigliere)"
         ],
-        "rendimento_1m": 0.032,
-        "dal_massimo_12m": -0.077,
+        "rendimento_1m": 0.043,
+        "dal_massimo_12m": -0.073,
         "sopra_media200": true,
         "sp500": false
       },
@@ -429,45 +468,29 @@
           "Jones Nathaniel T. (Vice President)"
         ],
         "rendimento_1m": -0.042,
-        "dal_massimo_12m": -0.171,
+        "dal_massimo_12m": -0.183,
         "sopra_media200": false,
-        "sp500": false
-      },
-      {
-        "ticker": "GABC",
-        "emittente": "GERMAN AMERICAN BANCORP, INC.",
-        "insider": 3,
-        "valore_totale": 17300,
-        "ultima_operazione": "2026-10-15",
-        "chi": [
-          "Bawel Zachary W (consigliere)",
-          "Ryan Christina M (consigliere)",
-          "Seger Andrew M (consigliere)"
-        ],
-        "rendimento_1m": 0.051,
-        "dal_massimo_12m": -0.005,
-        "sopra_media200": true,
         "sp500": false
       }
     ],
     "insider_nel_calo": [
       {
         "ticker": "APLD",
-        "rendimento_1m": -0.299,
-        "dal_massimo_12m": -0.616,
+        "rendimento_1m": -0.326,
+        "dal_massimo_12m": -0.632,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "RAPP",
-        "rendimento_1m": -0.223,
-        "dal_massimo_12m": -0.495,
+        "rendimento_1m": -0.234,
+        "dal_massimo_12m": -0.506,
         "sopra_media200": false,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 14,
+    "congresso_comunicazioni": 12,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
       "settimana": "2026-10-11",
@@ -476,14 +499,7 @@
       "sopra_90": false,
       "lettura": "indice di paura tra i più bassi dell'anno"
     },
-    "ricerche_in_evidenza": [
-      {
-        "parola": "interest rates",
-        "gruppo": "temi 1",
-        "stato": "in salita",
-        "ultime4_vs_3mesi": 1.25
-      }
-    ],
+    "ricerche_in_evidenza": [],
     "posizioni_e_segnali": [
       {
         "ticker": "AAOI",
@@ -491,9 +507,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.326,
+        "mese": -0.332,
         "sopra_media200": false,
-        "vol_implicita": 111.8
+        "vol_implicita": 112.6
       },
       {
         "ticker": "XBI",
@@ -501,9 +517,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.023,
+        "mese": -0.042,
         "sopra_media200": true,
-        "vol_implicita": 37.2
+        "vol_implicita": 36.4
       },
       {
         "ticker": "VST",
@@ -511,20 +527,31 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": 0.02,
+        "mese": 0.016,
         "sopra_media200": false,
-        "vol_implicita": 55.3
+        "vol_implicita": 53.0
+      },
+      {
+        "ticker": "SMH",
+        "origine": "segnale Rimbalzo in trend",
+        "da_notare": [
+          "niente di nuovo"
+        ],
+        "mese": -0.122,
+        "sopra_media200": true,
+        "vol_implicita": 42.3
       }
     ],
     "registro_casi": {
       "nuovi_oggi": [
-        "tema arrivato alla massa: IA che sostituisce il lavoro → IGV",
-        "insider nel calo: RAPP → RAPP"
+        "tema arrivato alla massa: Bolla e crollo → SPY",
+        "tema nascente: Dazi e commercio → XLI",
+        "insider in gruppo: RAPP → RAPP"
       ],
       "bilancio": [
         {
           "tipo": "insider in gruppo",
-          "casi": 12,
+          "casi": 13,
           "chiusi_20": 0,
           "diff_20": null,
           "giudizio": "in raccolta"
@@ -545,7 +572,14 @@
         },
         {
           "tipo": "tema nascente",
-          "casi": 6,
+          "casi": 7,
+          "chiusi_20": 0,
+          "diff_20": null,
+          "giudizio": "in raccolta"
+        },
+        {
+          "tipo": "tema arrivato alla massa",
+          "casi": 2,
           "chiusi_20": 0,
           "diff_20": null,
           "giudizio": "in raccolta"
@@ -556,36 +590,28 @@
           "chiusi_20": 0,
           "diff_20": null,
           "giudizio": "in raccolta"
-        },
-        {
-          "tipo": "tema arrivato alla massa",
-          "casi": 1,
-          "chiusi_20": 0,
-          "diff_20": null,
-          "giudizio": "in raccolta"
         }
       ]
     },
     "fonti_non_raggiungibili": [
+      "Senato USA (eFD)",
       "Yahoo Finance",
-      "r/investing",
-      "r/Economics",
-      "GDELT (Petrolio ed energia)",
-      "GDELT (Credito privato e default)"
+      "r/options",
+      "GDELT (Difesa e cybersicurezza)"
     ]
   },
   "radar_movimenti": {
     "stato": "in prova, solo registro",
-    "data": "2026-10-22",
+    "data": "2026-10-23",
     "completo": true,
     "problemi": {
-      "universo_note": "IVV: risposta senza tabella (200); IWM: risposta senza tabella (200)",
       "dati_non_validi": {
-        "volatilità di base negativa": 331,
-        "varianza dell'evento negativa": 315,
-        "meno di due scadenze che contengono l'evento": 24
+        "volatilità di base negativa": 321,
+        "varianza dell'evento negativa": 305,
+        "meno di due scadenze che contengono l'evento": 24,
+        "movimento": 1
       },
-      "orario_ignoto": "596 titoli nella finestra senza orario (trattati come prima dell'apertura)"
+      "orario_ignoto": "563 titoli nella finestra senza orario (trattati come prima dell'apertura)"
     },
     "nota": "Solo informazione per l'agente: nessun ordine e nessuna regola nuova. Piano: strategia/piano-radar-movimenti.md",
     "soglie": {
@@ -609,31 +635,62 @@
       "large": [],
       "small/mid": [
         {
+          "ticker": "DDD",
+          "segmento": "small/mid",
+          "evento": "utili",
+          "data": "2026-11-03",
+          "data_tipo": "stimata",
+          "orario": null,
+          "sedute": 6,
+          "fascia": "4-7",
+          "movimento_implicito": 0.0194,
+          "movimento_mediano": 0.0164,
+          "mediana_storica": 0.1831,
+          "rapporto": 0.089,
+          "trend": true,
+          "distanza_ema21_atr": -0.71,
+          "iv": 0.86986245,
+          "straddle_pct": 0.2,
+          "liquidita": {
+            "rating": 3,
+            "forchetta_pct": 0.1667,
+            "forchetta_fonte": "sera",
+            "oi_call": 697,
+            "oi_put": 572
+          },
+          "salto_in_sigma": 3.5,
+          "vol_rel_5_50": 0.83,
+          "n_report": 12,
+          "segnalatori": [
+            "IV sopra 30%"
+          ]
+        },
+        {
           "ticker": "PRCH",
           "segmento": "small/mid",
           "evento": "utili",
           "data": "2026-10-28",
           "data_tipo": "confermata",
           "orario": "dopo",
-          "sedute": 4,
-          "fascia": "4-7",
-          "movimento_implicito": 0.1509,
-          "movimento_mediano": 0.1273,
+          "sedute": 3,
+          "fascia": "1-3",
+          "movimento_implicito": 0.1963,
+          "movimento_mediano": 0.1655,
           "mediana_storica": 0.2713,
-          "rapporto": 0.469,
+          "rapporto": 0.61,
           "trend": true,
-          "distanza_ema21_atr": 0.67,
-          "iv": 1.005120406,
-          "straddle_pct": 0.2159,
+          "distanza_ema21_atr": 0.37,
+          "iv": 1.077404429,
+          "straddle_pct": 0.2172,
           "liquidita": {
             "rating": 3,
-            "forchetta_pct": 0.1935,
+            "forchetta_pct": 0.2452,
             "forchetta_fonte": "sera",
             "oi_call": 6336,
             "oi_put": 5407
           },
           "salto_in_sigma": 7.4,
-          "vol_rel_5_50": 1.44,
+          "vol_rel_5_50": 1.32,
           "n_report": 12,
           "segnalatori": [
             "IV sopra 30%",
@@ -647,25 +704,25 @@
           "data": "2026-11-02",
           "data_tipo": "confermata",
           "orario": "dopo",
-          "sedute": 7,
+          "sedute": 6,
           "fascia": "4-7",
-          "movimento_implicito": 0.1881,
-          "movimento_mediano": 0.1586,
+          "movimento_implicito": 0.2084,
+          "movimento_mediano": 0.1757,
           "mediana_storica": 0.2377,
-          "rapporto": 0.667,
+          "rapporto": 0.739,
           "trend": true,
-          "distanza_ema21_atr": -0.61,
-          "iv": 1.182668655,
-          "straddle_pct": 0.2656,
+          "distanza_ema21_atr": -0.69,
+          "iv": 1.207078123,
+          "straddle_pct": 0.2642,
           "liquidita": {
             "rating": 4,
-            "forchetta_pct": 0.1714,
+            "forchetta_pct": 0.1538,
             "forchetta_fonte": "sera",
-            "oi_call": 882,
-            "oi_put": 1144
+            "oi_call": 993,
+            "oi_put": 1309
           },
           "salto_in_sigma": 4.8,
-          "vol_rel_5_50": 0.74,
+          "vol_rel_5_50": 0.71,
           "n_report": 12,
           "segnalatori": [
             "IV sopra 30%",
@@ -680,21 +737,21 @@
         "universo": 518,
         "con_metriche": 518,
         "rating_ok": 517,
-        "utili_prossimi_60_giorni": 430,
+        "utili_prossimi_60_giorni": 408,
         "in_finestra": 347,
-        "cancello_ok": 69,
-        "validi": 65,
-        "economici": 15,
-        "cari": 23,
-        "dato_non_valido": 22,
-        "storico_insufficiente": 4,
-        "senza_data_utili": 88,
+        "cancello_ok": 75,
+        "validi": 72,
+        "economici": 17,
+        "cari": 32,
+        "dato_non_valido": 31,
+        "storico_insufficiente": 3,
+        "senza_data_utili": 110,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 141,
-          "liquidità: open interest": 114,
-          "dato non valido: varianza dell'evento negativa": 14,
-          "dato non valido: volatilità di base negativa": 8,
-          "storico insufficiente: storico insufficiente": 4,
+          "liquidità: forchetta": 138,
+          "liquidità: open interest": 102,
+          "dato non valido: varianza dell'evento negativa": 22,
+          "dato non valido: volatilità di base negativa": 9,
+          "storico insufficiente: storico insufficiente": 3,
           "liquidità: liquidity rating": 1
         }
       },
@@ -702,23 +759,24 @@
         "universo": 2000,
         "con_metriche": 2000,
         "rating_ok": 1696,
-        "utili_prossimi_60_giorni": 1763,
-        "in_finestra": 1540,
-        "cancello_ok": 51,
-        "validi": 40,
-        "economici": 10,
-        "cari": 22,
-        "dato_non_valido": 648,
+        "utili_prossimi_60_giorni": 1708,
+        "in_finestra": 1529,
+        "cancello_ok": 48,
+        "validi": 37,
+        "economici": 14,
+        "cari": 12,
+        "dato_non_valido": 620,
         "storico_insufficiente": 11,
-        "senza_data_utili": 237,
+        "senza_data_utili": 292,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 629,
-          "dato non valido: volatilità di base negativa": 323,
-          "dato non valido: varianza dell'evento negativa": 301,
-          "liquidità: liquidity rating": 152,
-          "liquidità: open interest": 60,
+          "liquidità: forchetta": 658,
+          "dato non valido: volatilità di base negativa": 312,
+          "dato non valido: varianza dell'evento negativa": 283,
+          "liquidità: liquidity rating": 150,
+          "liquidità: open interest": 53,
           "dato non valido: meno di due scadenze che contengono l'evento": 24,
-          "storico insufficiente: storico insufficiente": 11
+          "storico insufficiente: storico insufficiente": 11,
+          "dato non valido: movimento": 1
         }
       }
     },
@@ -726,75 +784,75 @@
       {
         "segmento": "large",
         "fascia": "1-3",
-        "validi": 22,
-        "economici": 3,
-        "cari": 8,
-        "mediana_rapporto": 1.046,
-        "mediana_implicito_su_straddle": 0.667
+        "validi": 34,
+        "economici": 9,
+        "cari": 14,
+        "mediana_rapporto": 1.041,
+        "mediana_implicito_su_straddle": 0.71
       },
       {
         "segmento": "large",
         "fascia": "4-7",
-        "validi": 36,
-        "economici": 11,
-        "cari": 10,
-        "mediana_rapporto": 0.933,
-        "mediana_implicito_su_straddle": 0.712
+        "validi": 22,
+        "economici": 6,
+        "cari": 8,
+        "mediana_rapporto": 1.082,
+        "mediana_implicito_su_straddle": 0.699
       },
       {
         "segmento": "large",
         "fascia": "8-15",
-        "validi": 7,
-        "economici": 1,
-        "cari": 5,
-        "mediana_rapporto": 1.296,
-        "mediana_implicito_su_straddle": 0.554
+        "validi": 16,
+        "economici": 2,
+        "cari": 10,
+        "mediana_rapporto": 1.261,
+        "mediana_implicito_su_straddle": 0.693
       },
       {
         "segmento": "small/mid",
         "fascia": "1-3",
-        "validi": 2,
-        "economici": 1,
-        "cari": 1,
-        "mediana_rapporto": 1.038,
-        "mediana_implicito_su_straddle": 0.629
+        "validi": 9,
+        "economici": 3,
+        "cari": 3,
+        "mediana_rapporto": 1.076,
+        "mediana_implicito_su_straddle": 0.665
       },
       {
         "segmento": "small/mid",
         "fascia": "4-7",
-        "validi": 12,
+        "validi": 8,
         "economici": 4,
-        "cari": 5,
-        "mediana_rapporto": 1.176,
-        "mediana_implicito_su_straddle": 0.723
+        "cari": 3,
+        "mediana_rapporto": 0.872,
+        "mediana_implicito_su_straddle": 0.724
       },
       {
         "segmento": "small/mid",
         "fascia": "8-15",
-        "validi": 26,
-        "economici": 5,
-        "cari": 16,
-        "mediana_rapporto": 1.38,
-        "mediana_implicito_su_straddle": 0.731
+        "validi": 20,
+        "economici": 7,
+        "cari": 6,
+        "mediana_rapporto": 1.073,
+        "mediana_implicito_su_straddle": 0.665
       }
     ],
-    "fotografie": 1887,
+    "fotografie": 1876,
     "registro_eventi": {
-      "righe": 2189,
-      "misurati": 173,
-      "misurati_stasera": 104
+      "righe": 2203,
+      "misurati": 215,
+      "misurati_stasera": 89
     },
     "verdetto_per_fascia": [
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "1-3",
-        "eventi": 53,
-        "quota_oltre_tutti": 0.283,
-        "mediana_realizzato_su_implicito": 0.662,
-        "economici": 14,
-        "quota_oltre_economici": 0.429,
-        "differenza_punti": 14.6
+        "eventi": 59,
+        "quota_oltre_tutti": 0.322,
+        "mediana_realizzato_su_implicito": 0.723,
+        "economici": 16,
+        "quota_oltre_economici": 0.438,
+        "differenza_punti": 11.6
       },
       {
         "segmento": "small/mid",
@@ -811,34 +869,34 @@
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "4-7",
-        "eventi": 41,
-        "quota_oltre_tutti": 0.293,
-        "mediana_realizzato_su_implicito": 0.578,
-        "economici": 12,
-        "quota_oltre_economici": 0.333,
-        "differenza_punti": 4.0
+        "eventi": 47,
+        "quota_oltre_tutti": 0.34,
+        "mediana_realizzato_su_implicito": 0.59,
+        "economici": 15,
+        "quota_oltre_economici": 0.4,
+        "differenza_punti": 6.0
       },
       {
         "segmento": "small/mid",
         "stagione": "2026-T4",
         "fascia": "4-7",
-        "eventi": 3,
-        "quota_oltre_tutti": 0.333,
-        "mediana_realizzato_su_implicito": 0.647,
+        "eventi": 5,
+        "quota_oltre_tutti": 0.6,
+        "mediana_realizzato_su_implicito": 1.735,
         "economici": 1,
         "quota_oltre_economici": 1.0,
-        "differenza_punti": 66.7
+        "differenza_punti": 40.0
       },
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "8-15",
-        "eventi": 13,
-        "quota_oltre_tutti": 0.308,
-        "mediana_realizzato_su_implicito": 0.691,
+        "eventi": 14,
+        "quota_oltre_tutti": 0.286,
+        "mediana_realizzato_su_implicito": 0.754,
         "economici": 8,
         "quota_oltre_economici": 0.25,
-        "differenza_punti": -5.8
+        "differenza_punti": -3.6
       },
       {
         "segmento": "small/mid",
@@ -852,18 +910,18 @@
         "differenza_punti": 0.0
       }
     ],
-    "secondi": 127.9,
+    "secondi": 100.2,
     "tappe_secondi": {
-      "universo": 9.4,
-      "metriche": 15.5,
-      "dolthub": 24.2,
-      "implicito": 24.5,
-      "catene": 77.1,
-      "cancello": 83.2,
-      "prezzi": 122.2,
-      "storico": 122.7,
-      "semaforo_b": 122.7,
-      "registri": 127.8
+      "universo": 0.2,
+      "metriche": 7.0,
+      "dolthub": 17.0,
+      "implicito": 17.1,
+      "catene": 60.4,
+      "cancello": 65.0,
+      "prezzi": 97.2,
+      "storico": 97.5,
+      "semaforo_b": 97.5,
+      "registri": 100.1
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generato": "2026-11-06 22:58",
+  "generato": "2026-11-07 01:53",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -341,30 +341,27 @@
     "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
-    "generato": "2026-11-06 01:41",
-    "giornata": "2026-11-05",
+    "generato": "2026-11-07 00:56",
+    "giornata": "2026-11-06",
     "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "🏁 Registro dei casi, «insider in gruppo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30).",
-      "🏁 Registro dei casi, «tema sulle grandi testate»: 2 casi chiusi a 20 sedute (il primo; il giudizio arriva a 30).",
-      "🏁 Registro dei casi, «tema nascente»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30).",
-      "SPY (posizione aperta): tema «Bolla e crollo» in amplificazione sulle grandi testate; tema «Recessione e lavoro» in amplificazione sulle grandi testate; ricerca «AI bubble» al picco",
-      "QQQ (posizione aperta): tema «Bolla e crollo» in amplificazione sulle grandi testate; ricerca «AI bubble» al picco",
-      "XLY (segnale rottura dei massimi): tema «Recessione e lavoro» in amplificazione sulle grandi testate; tema «Dazi e commercio» in amplificazione sulle grandi testate",
-      "Bolla e crollo: in amplificazione sulle grandi testate (60 titoli, 2.62× il solito, 17 fonti)",
-      "Robotica: in amplificazione sulle grandi testate (5 titoli, 1.76× il solito, 3 fonti)",
-      "Recessione e lavoro: in amplificazione sulle grandi testate (10 titoli, 1.73× il solito, 7 fonti)",
-      "Parole nuove in più fonti: «blue wave» (5), «democratic sweep» (4), «russell brand» (3), «october jobs» (3)",
-      "Polymarket: «Will Anthropic IPO by November 30, 2026?» 58% (-24 pt in un giorno)",
-      "Polymarket: «US imports Russian diesel by November 30?» 12% (-22 pt in un giorno)",
-      "Insider in gruppo: LRN (2 insider, 31.483.168 $), RAPP (6 insider, 21.880.355 $), ACN (2 insider, 3.200.889 $), PAM (2 insider, 2.823.419 $)",
-      "Insider che comprano nel calo: BKR (-17% nel mese), ENPH (-14% nel mese), LBRT (-42% nel mese), NXG (-25% nel mese)",
-      "Registro dei casi: 9 nuovi casi annotati per il test"
+      "🏁 Registro dei casi, «ricerca in salita»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30).",
+      "SPY (posizione aperta): tema «Bolla e crollo» arrivata alla massa; tema «Recessione e lavoro» in amplificazione sulle grandi testate; ricerca «AI bubble» al picco",
+      "QQQ (posizione aperta): tema «Bolla e crollo» arrivata alla massa; ricerca «AI bubble» al picco",
+      "XLY (segnale rottura dei massimi): tema «Recessione e lavoro» in amplificazione sulle grandi testate; tema «Dazi e commercio» nascente",
+      "Bolla e crollo: arrivata alla massa (copertura mondiale doppia del solito) (88 titoli, 3.53× il solito, 15 fonti)",
+      "Recessione e lavoro: in amplificazione sulle grandi testate (29 titoli, 4.65× il solito, 11 fonti)",
+      "Elettricità e nucleare: in amplificazione sulle grandi testate (3 titoli, 1.95× il solito, 3 fonti)",
+      "Parole nuove in più fonti: «october jobs» (6), «chief staff» (5), «unemployment rate» (5), «jobs october» (5)",
+      "Polymarket: «Will Anthropic IPO by November 30, 2026?» 82% (+24 pt in un giorno)",
+      "Polymarket: «Will Anthropic have the highest IPO Market Cap 2026?» 10% (-20 pt in un giorno)",
+      "Insider in gruppo: LRN (2 insider, 31.483.168 $), RAPP (2 insider, 20.457.558 $), ACN (2 insider, 3.200.889 $), PAM (2 insider, 2.823.419 $)",
+      "Insider che comprano nel calo: ENPH (-14% nel mese), GFS (-22% nel mese), KMT (-28% nel mese), KWY (-16% nel mese)",
+      "Ricerche Google al picco: «Google stock»",
+      "Registro dei casi: 7 nuovi casi annotati per il test"
     ],
     "traguardi": [
-      "Registro dei casi, «insider in gruppo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30).",
-      "Registro dei casi, «tema sulle grandi testate»: 2 casi chiusi a 20 sedute (il primo; il giudizio arriva a 30).",
-      "Registro dei casi, «tema nascente»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30)."
+      "Registro dei casi, «ricerca in salita»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30)."
     ],
     "stato_test": {
       "temi_giorni_storico": 20,
@@ -378,18 +375,18 @@
           "diff_20": -0.0626
         },
         "insider nel calo": {
-          "casi": 31,
+          "casi": 36,
           "chiusi_20": 5,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
           "diff_20": -0.08
         },
         "tema sulle grandi testate": {
-          "casi": 15,
-          "chiusi_20": 2,
+          "casi": 16,
+          "chiusi_20": 4,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.3633
+          "diff_20": -0.2295
         },
         "tema nascente": {
           "casi": 8,
@@ -405,120 +402,120 @@
           "giudizio": "in raccolta",
           "diff_20": null
         },
-        "ricerca in salita": {
+        "ricerca al picco": {
           "casi": 1,
           "chiusi_20": 0,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
           "diff_20": null
+        },
+        "ricerca in salita": {
+          "casi": 1,
+          "chiusi_20": 1,
+          "chiusi_60": 0,
+          "giudizio": "in raccolta",
+          "diff_20": 0.0565
         }
       }
     },
     "temi_in_crescita": [
       {
         "tema": "Bolla e crollo",
-        "fase": "in amplificazione sulle grandi testate",
-        "titoli": 60,
-        "rapporto": 2.62,
-        "esempio": "Was Michael Burry right about the AI bubble? Wall Street loses $2 trillion as AI and chip stocks plunge: W"
-      },
-      {
-        "tema": "Robotica",
-        "fase": "in amplificazione sulle grandi testate",
-        "titoli": 5,
-        "rapporto": 1.76,
-        "esempio": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robotics division"
+        "fase": "arrivata alla massa (copertura mondiale doppia del solito)",
+        "titoli": 88,
+        "rapporto": 3.53,
+        "esempio": "Healthcare Stocks Fall as Market Rout Spreads"
       },
       {
         "tema": "Recessione e lavoro",
         "fase": "in amplificazione sulle grandi testate",
-        "titoli": 10,
-        "rapporto": 1.73,
-        "esempio": "A stable jobs market is marred by lagging wage growth: Nonfarm payrolls preview"
+        "titoli": 29,
+        "rapporto": 4.65,
+        "esempio": "What They Are Saying: Blowout October Jobs Report Smashes Expectations"
+      },
+      {
+        "tema": "Elettricità e nucleare",
+        "fase": "in amplificazione sulle grandi testate",
+        "titoli": 3,
+        "rapporto": 1.95,
+        "esempio": "Chesapeake Utilities outlines $550M-$600M 2026 capex plan while advancing $1.2B Florida Energy Pathway toward 2030 in-service"
       },
       {
         "tema": "Dazi e commercio",
-        "fase": "in amplificazione sulle grandi testate",
-        "titoli": 8,
-        "rapporto": 1.62,
-        "esempio": "Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks"
-      },
-      {
-        "tema": "Metalli e miniere",
-        "fase": "in amplificazione sulle grandi testate",
-        "titoli": 17,
-        "rapporto": 1.51,
-        "esempio": "Basic Materials Roundup: Market Talk"
+        "fase": "nascente (origine o social, non ancora sulle testate)",
+        "titoli": 10,
+        "rapporto": 1.98,
+        "esempio": "President Trump Was Right: Tariffs and Tax Cuts Are Reshoring Manufacturing, Creating Jobs"
       }
     ],
     "narrative_emergenti": [
       {
-        "parole": "blue wave",
-        "fonti": 5,
-        "esempio": "Mamdani Urges Democrats to Put Their ‘Foot on the Gas’ After Midterms Blue Wave"
-      },
-      {
-        "parole": "democratic sweep",
-        "fonti": 4,
-        "esempio": "European stocks overtake Wall Street following Democratic sweep"
-      },
-      {
-        "parole": "russell brand",
-        "fonti": 3,
-        "esempio": "Russell Brand Found Guilty of Rape"
-      },
-      {
         "parole": "october jobs",
-        "fonti": 3,
-        "esempio": "The October jobs report is out Friday. Here's everything to expect"
+        "fonti": 6,
+        "esempio": "What They Are Saying: Blowout October Jobs Report Smashes Expectations"
       },
       {
-        "parole": "retreat trade",
-        "fonti": 3,
-        "esempio": "Stock Market Today: Nasdaq Plunges 5.5%; Investors Retreat From AI Trade After Election"
+        "parole": "chief staff",
+        "fonti": 5,
+        "esempio": "President Trump Names Stephen Miller as 33rd White House Chief of Staff"
       },
       {
-        "parole": "tax brackets",
+        "parole": "unemployment rate",
+        "fonti": 5,
+        "esempio": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%"
+      },
+      {
+        "parole": "jobs october",
+        "fonti": 5,
+        "esempio": "U.S. Bureau of Labor Statistics reports over 165K new jobs in October"
+      },
+      {
+        "parole": "ahead jobs",
+        "fonti": 4,
+        "esempio": "U.S. labor market zooms ahead with 165,000 jobs added in October"
+      },
+      {
+        "parole": "october unemployment",
         "fonti": 3,
-        "esempio": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be."
+        "esempio": "US employers surprisingly add 165K jobs in strong October, unemployment dips"
       }
     ],
     "mercati_previsione_mosse": [
       {
         "mercato": "Polymarket",
         "domanda": "Will Anthropic IPO by November 30, 2026?",
-        "prob": 0.58,
-        "var_giorno": -0.24
+        "prob": 0.815,
+        "var_giorno": 0.235
       },
       {
         "mercato": "Polymarket",
-        "domanda": "US imports Russian diesel by November 30?",
-        "prob": 0.115,
-        "var_giorno": -0.22
+        "domanda": "Will Anthropic have the highest IPO Market Cap 2026?",
+        "prob": 0.102,
+        "var_giorno": -0.199
       },
       {
         "mercato": "Polymarket",
         "domanda": "Will Anthropic IPO by December 31, 2026?",
-        "prob": 0.726,
-        "var_giorno": -0.169
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
-        "prob": 0.13,
-        "var_giorno": -0.165
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-        "prob": 0.175,
-        "var_giorno": -0.14
+        "prob": 0.906,
+        "var_giorno": 0.18
       },
       {
         "mercato": "Polymarket",
         "domanda": "Another Fed rate hike in 2026?",
-        "prob": 0.64,
-        "var_giorno": -0.135
+        "prob": 0.765,
+        "var_giorno": 0.125
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+        "prob": 0.215,
+        "var_giorno": -0.11
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+        "prob": 0.765,
+        "var_giorno": 0.11
       }
     ],
     "insider_gruppi": [
@@ -532,26 +529,23 @@
           "Haggart Dylan G. (consigliere)",
           "Shepherd Brian A. (consigliere)"
         ],
-        "rendimento_1m": -0.06,
-        "dal_massimo_12m": -0.266,
+        "rendimento_1m": -0.078,
+        "dal_massimo_12m": -0.265,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "RAPP",
         "emittente": "Rapport Therapeutics, Inc.",
-        "insider": 6,
-        "valore_totale": 21880355,
+        "insider": 2,
+        "valore_totale": 20457558,
         "ultima_operazione": "2026-10-28",
         "chi": [
           "HEALY JAMES (consigliere)",
-          "MARAGANORE JOHN (consigliere)",
-          "PAUL STEVEN M (consigliere)",
-          "Sanchez Ramiro (consigliere)",
-          "Silva Paul M (consigliere)"
+          "Sanchez Ramiro (consigliere)"
         ],
-        "rendimento_1m": -0.231,
-        "dal_massimo_12m": -0.548,
+        "rendimento_1m": -0.181,
+        "dal_massimo_12m": -0.534,
         "sopra_media200": false,
         "sp500": false
       },
@@ -565,8 +559,8 @@
           "Price Paula A (consigliere)",
           "Sweet Julie Spellman (consigliere, Chair and CEO)"
         ],
-        "rendimento_1m": 0.359,
-        "dal_massimo_12m": -0.055,
+        "rendimento_1m": 0.26,
+        "dal_massimo_12m": -0.071,
         "sopra_media200": true,
         "sp500": true
       },
@@ -580,8 +574,8 @@
           "Mindlin Damian Miguel (Vicepresident)",
           "Zuberbuhler Adolfo Fernando (Chief Financial Officer)"
         ],
-        "rendimento_1m": -0.2,
-        "dal_massimo_12m": -0.306,
+        "rendimento_1m": -0.212,
+        "dal_massimo_12m": -0.311,
         "sopra_media200": false,
         "sp500": false
       },
@@ -597,8 +591,8 @@
           "Long Joseph B (Chief Operating Officer)",
           "Williams Charles Alan (consigliere, CHAIRMAN & CEO)"
         ],
-        "rendimento_1m": 0.023,
-        "dal_massimo_12m": -0.175,
+        "rendimento_1m": 0.006,
+        "dal_massimo_12m": -0.181,
         "sopra_media200": false,
         "sp500": false
       },
@@ -612,58 +606,58 @@
           "Buckley Mortimer J (consigliere)",
           "MOLLENKOPF STEVEN M (consigliere)"
         ],
-        "rendimento_1m": -0.084,
-        "dal_massimo_12m": -0.316,
+        "rendimento_1m": -0.076,
+        "dal_massimo_12m": -0.312,
         "sopra_media200": false,
         "sp500": true
       }
     ],
     "insider_nel_calo": [
       {
-        "ticker": "BKR",
-        "rendimento_1m": -0.166,
-        "dal_massimo_12m": -0.332,
-        "sopra_media200": false,
-        "sp500": true
-      },
-      {
         "ticker": "ENPH",
         "rendimento_1m": -0.135,
-        "dal_massimo_12m": -0.599,
+        "dal_massimo_12m": -0.606,
+        "sopra_media200": false,
+        "sp500": false
+      },
+      {
+        "ticker": "GFS",
+        "rendimento_1m": -0.218,
+        "dal_massimo_12m": -0.569,
+        "sopra_media200": false,
+        "sp500": false
+      },
+      {
+        "ticker": "KMT",
+        "rendimento_1m": -0.275,
+        "dal_massimo_12m": -0.462,
+        "sopra_media200": false,
+        "sp500": false
+      },
+      {
+        "ticker": "KWY",
+        "rendimento_1m": -0.157,
+        "dal_massimo_12m": -0.424,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "LBRT",
-        "rendimento_1m": -0.415,
-        "dal_massimo_12m": -0.663,
+        "rendimento_1m": -0.366,
+        "dal_massimo_12m": -0.645,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "NXG",
-        "rendimento_1m": -0.251,
-        "dal_massimo_12m": -0.323,
-        "sopra_media200": false,
-        "sp500": false
-      },
-      {
-        "ticker": "PAM",
-        "rendimento_1m": -0.2,
-        "dal_massimo_12m": -0.306,
-        "sopra_media200": false,
-        "sp500": false
-      },
-      {
-        "ticker": "PRLB",
-        "rendimento_1m": -0.324,
-        "dal_massimo_12m": -0.361,
+        "ticker": "MDGL",
+        "rendimento_1m": -0.162,
+        "dal_massimo_12m": -0.337,
         "sopra_media200": false,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 14,
+    "congresso_comunicazioni": 11,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
       "settimana": "2026-10-25",
@@ -672,19 +666,26 @@
       "sopra_90": false,
       "lettura": "indice di paura nella norma"
     },
-    "ricerche_in_evidenza": [],
+    "ricerche_in_evidenza": [
+      {
+        "parola": "Google stock",
+        "gruppo": "aziende 3",
+        "stato": "al picco",
+        "ultime4_vs_3mesi": 1.16
+      }
+    ],
     "posizioni_e_segnali": [
       {
         "ticker": "SPY",
         "origine": "posizione aperta",
         "da_notare": [
-          "tema «Bolla e crollo» in amplificazione sulle grandi testate",
+          "tema «Bolla e crollo» arrivata alla massa",
           "tema «Recessione e lavoro» in amplificazione sulle grandi testate",
           "ricerca «AI bubble» al picco"
         ],
-        "mese": -0.057,
+        "mese": -0.05,
         "sopra_media200": true,
-        "vol_implicita": 23.4
+        "vol_implicita": 21.8
       },
       {
         "ticker": "XBI",
@@ -692,20 +693,20 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.012,
+        "mese": 0.02,
         "sopra_media200": true,
-        "vol_implicita": 49.9
+        "vol_implicita": 42.9
       },
       {
         "ticker": "QQQ",
         "origine": "posizione aperta",
         "da_notare": [
-          "tema «Bolla e crollo» in amplificazione sulle grandi testate",
+          "tema «Bolla e crollo» arrivata alla massa",
           "ricerca «AI bubble» al picco"
         ],
-        "mese": -0.146,
+        "mese": -0.122,
         "sopra_media200": false,
-        "vol_implicita": 35.5
+        "vol_implicita": 31.1
       },
       {
         "ticker": "AAOI",
@@ -713,9 +714,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.617,
+        "mese": -0.527,
         "sopra_media200": false,
-        "vol_implicita": 132.1
+        "vol_implicita": 108.4
       },
       {
         "ticker": "VST",
@@ -723,9 +724,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.323,
+        "mese": -0.201,
         "sopra_media200": false,
-        "vol_implicita": 64.7
+        "vol_implicita": 53.7
       },
       {
         "ticker": "IBB",
@@ -733,9 +734,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": 0.033,
+        "mese": 0.066,
         "sopra_media200": true,
-        "vol_implicita": 36.4
+        "vol_implicita": 32.7
       },
       {
         "ticker": "XLF",
@@ -743,20 +744,20 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": 0.07,
+        "mese": 0.054,
         "sopra_media200": true,
-        "vol_implicita": 32.2
+        "vol_implicita": 23.4
       },
       {
         "ticker": "XLY",
         "origine": "segnale rottura dei massimi",
         "da_notare": [
           "tema «Recessione e lavoro» in amplificazione sulle grandi testate",
-          "tema «Dazi e commercio» in amplificazione sulle grandi testate"
+          "tema «Dazi e commercio» nascente"
         ],
-        "mese": 0.056,
+        "mese": 0.053,
         "sopra_media200": true,
-        "vol_implicita": 46.4
+        "vol_implicita": 42.9
       },
       {
         "ticker": "XLE",
@@ -764,22 +765,20 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.027,
+        "mese": -0.055,
         "sopra_media200": true,
-        "vol_implicita": 59.4
+        "vol_implicita": 52.9
       }
     ],
     "registro_casi": {
       "nuovi_oggi": [
-        "tema sulle grandi testate: Metalli e miniere → COPX",
-        "insider in gruppo: PAM → PAM",
-        "insider in gruppo: BXMT → BXMT",
-        "insider in gruppo: FBRT → FBRT",
-        "insider in gruppo: LBRT → LBRT",
-        "insider nel calo: BKR → BKR",
-        "insider nel calo: LBRT → LBRT",
-        "insider nel calo: SHEN → SHEN",
-        "insider nel calo: SPXC → SPXC"
+        "tema sulle grandi testate: Elettricità e nucleare → NLR",
+        "ricerca al picco: Google stock → GOOGL",
+        "insider nel calo: GFS → GFS",
+        "insider nel calo: KMT → KMT",
+        "insider nel calo: KWY → KWY",
+        "insider nel calo: MDGL → MDGL",
+        "insider nel calo: MTUS → MTUS"
       ],
       "bilancio": [
         {
@@ -791,16 +790,16 @@
         },
         {
           "tipo": "insider nel calo",
-          "casi": 31,
+          "casi": 36,
           "chiusi_20": 5,
           "diff_20": -0.08,
           "giudizio": "in raccolta"
         },
         {
           "tipo": "tema sulle grandi testate",
-          "casi": 15,
-          "chiusi_20": 2,
-          "diff_20": -0.3633,
+          "casi": 16,
+          "chiusi_20": 4,
+          "diff_20": -0.2295,
           "giudizio": "in raccolta"
         },
         {
@@ -818,10 +817,17 @@
           "giudizio": "in raccolta"
         },
         {
-          "tipo": "ricerca in salita",
+          "tipo": "ricerca al picco",
           "casi": 1,
           "chiusi_20": 0,
           "diff_20": null,
+          "giudizio": "in raccolta"
+        },
+        {
+          "tipo": "ricerca in salita",
+          "casi": 1,
+          "chiusi_20": 1,
+          "diff_20": 0.0565,
           "giudizio": "in raccolta"
         }
       ]
@@ -830,20 +836,19 @@
       "Senato USA (eFD)",
       "Yahoo Finance",
       "r/options",
-      "GDELT (Banche sotto pressione)",
-      "GDELT (Recessione e lavoro)",
-      "GDELT"
+      "GDELT (Elettricità e nucleare)"
     ]
   },
   "radar_movimenti": {
     "stato": "in prova, solo registro",
     "data": "2026-11-06",
-    "completo": false,
+    "completo": true,
     "problemi": {
       "dati_non_validi": {
         "volatilità di base negativa": 93,
         "varianza dell'evento negativa": 40,
-        "meno di due scadenze che contengono l'evento": 9
+        "meno di due scadenze che contengono l'evento": 9,
+        "movimento": 1
       },
       "orario_ignoto": "142 titoli nella finestra senza orario (trattati come prima dell'apertura)"
     },
@@ -884,7 +889,7 @@
           "trend": true,
           "distanza_ema21_atr": 0.54,
           "iv": 1.344754248,
-          "straddle_pct": 0.2561,
+          "straddle_pct": 0.2563,
           "liquidita": {
             "rating": 4,
             "forchetta_pct": 0.1682,
@@ -909,16 +914,16 @@
         "rating_ok": 517,
         "utili_prossimi_60_giorni": 84,
         "in_finestra": 40,
-        "cancello_ok": 9,
-        "validi": 7,
-        "economici": 2,
+        "cancello_ok": 10,
+        "validi": 8,
+        "economici": 3,
         "cari": 3,
         "dato_non_valido": 4,
         "storico_insufficiente": 2,
         "senza_data_utili": 434,
         "esclusi_per_motivo": {
           "liquidità: open interest": 15,
-          "liquidità: forchetta": 12,
+          "liquidità: forchetta": 11,
           "dato non valido: varianza dell'evento negativa": 4,
           "storico insufficiente: storico insufficiente": 2
         }
@@ -933,17 +938,18 @@
         "validi": 12,
         "economici": 1,
         "cari": 8,
-        "dato_non_valido": 138,
+        "dato_non_valido": 139,
         "storico_insufficiente": 5,
         "senza_data_utili": 1407,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 165,
+          "liquidità: forchetta": 164,
           "dato non valido: volatilità di base negativa": 93,
           "liquidità: liquidity rating": 59,
           "dato non valido: varianza dell'evento negativa": 36,
           "dato non valido: meno di due scadenze che contengono l'evento": 9,
           "liquidità: open interest": 8,
-          "storico insufficiente: storico insufficiente": 5
+          "storico insufficiente: storico insufficiente": 5,
+          "dato non valido: movimento": 1
         }
       }
     },
@@ -951,11 +957,11 @@
       {
         "segmento": "large",
         "fascia": "1-3",
-        "validi": 1,
-        "economici": 0,
+        "validi": 2,
+        "economici": 1,
         "cari": 1,
-        "mediana_rapporto": 3.139,
-        "mediana_implicito_su_straddle": 0.752
+        "mediana_rapporto": 1.888,
+        "mediana_implicito_su_straddle": 0.665
       },
       {
         "segmento": "large",
@@ -973,7 +979,7 @@
         "economici": 0,
         "cari": 0,
         "mediana_rapporto": 0.877,
-        "mediana_implicito_su_straddle": 0.939
+        "mediana_implicito_su_straddle": 0.941
       },
       {
         "segmento": "small/mid",
@@ -982,7 +988,7 @@
         "economici": 1,
         "cari": 7,
         "mediana_rapporto": 1.377,
-        "mediana_implicito_su_straddle": 0.812
+        "mediana_implicito_su_straddle": 0.811
       },
       {
         "segmento": "small/mid",
@@ -1004,18 +1010,91 @@
       }
     ],
     "fotografie": 427,
-    "motivo_incompleto": "tetto di 30 s superato durante: utili DoltHub",
-    "secondi": 118.5,
+    "registro_eventi": {
+      "righe": 2374,
+      "misurati": 1532,
+      "misurati_stasera": 453
+    },
+    "verdetto_per_fascia": [
+      {
+        "segmento": "large",
+        "stagione": "2026-T4",
+        "fascia": "1-3",
+        "eventi": 194,
+        "quota_oltre_tutti": 0.392,
+        "mediana_realizzato_su_implicito": 0.791,
+        "economici": 35,
+        "quota_oltre_economici": 0.429,
+        "differenza_punti": 3.7
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "1-3",
+        "eventi": 88,
+        "quota_oltre_tutti": 0.318,
+        "mediana_realizzato_su_implicito": 0.749,
+        "economici": 17,
+        "quota_oltre_economici": 0.235,
+        "differenza_punti": -8.3
+      },
+      {
+        "segmento": "large",
+        "stagione": "2026-T4",
+        "fascia": "4-7",
+        "eventi": 179,
+        "quota_oltre_tutti": 0.48,
+        "mediana_realizzato_su_implicito": 0.922,
+        "economici": 41,
+        "quota_oltre_economici": 0.561,
+        "differenza_punti": 8.1
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "4-7",
+        "eventi": 84,
+        "quota_oltre_tutti": 0.369,
+        "mediana_realizzato_su_implicito": 0.794,
+        "economici": 21,
+        "quota_oltre_economici": 0.524,
+        "differenza_punti": 15.5
+      },
+      {
+        "segmento": "large",
+        "stagione": "2026-T4",
+        "fascia": "8-15",
+        "eventi": 156,
+        "quota_oltre_tutti": 0.429,
+        "mediana_realizzato_su_implicito": 0.832,
+        "economici": 37,
+        "quota_oltre_economici": 0.486,
+        "differenza_punti": 5.7
+      },
+      {
+        "segmento": "small/mid",
+        "stagione": "2026-T4",
+        "fascia": "8-15",
+        "eventi": 95,
+        "quota_oltre_tutti": 0.326,
+        "mediana_realizzato_su_implicito": 0.741,
+        "economici": 19,
+        "quota_oltre_economici": 0.421,
+        "differenza_punti": 9.5
+      }
+    ],
+    "secondi": 68.3,
     "tappe_secondi": {
       "universo": 0.2,
-      "metriche": 4.6,
-      "dolthub": 28.5,
-      "implicito": 28.6,
-      "catene": 37.3,
-      "cancello": 38.2,
-      "prezzi": 81.3,
-      "storico": 81.4,
-      "semaforo_b": 81.4
+      "metriche": 4.3,
+      "dolthub": 14.3,
+      "implicito": 14.4,
+      "catene": 22.2,
+      "cancello": 23.0,
+      "prezzi": 64.0,
+      "storico": 64.1,
+      "semaforo_b": 64.1,
+      "registri": 68.3
     }
   }
 }

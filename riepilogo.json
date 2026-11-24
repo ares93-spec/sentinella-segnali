@@ -1,5 +1,5 @@
 {
-  "generato": "2026-11-24 07:01",
+  "generato": "2026-11-24 22:58",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -8,7 +8,7 @@
         "indice": 39.1,
         "sopra_soglia": false
       },
-      "dati_al": "2026-11-23",
+      "dati_al": "2026-11-24",
       "filtro_mercato_ok": false,
       "posizioni_aperte": [
         {
@@ -16,9 +16,9 @@
           "strike": 670.0,
           "scadenza": "2027-02-19",
           "pagato": 29.17,
-          "valore_medio": 29.17,
-          "risultato_pct": 0.0,
-          "giorni_alla_scadenza": 88,
+          "valore_medio": 21.84,
+          "risultato_pct": -25.1,
+          "giorni_alla_scadenza": 87,
           "azione": "ESCI: ETF chiuso sotto la media a 50 giorni"
         },
         {
@@ -26,9 +26,9 @@
           "strike": 710.0,
           "scadenza": "2027-02-19",
           "pagato": 27.75,
-          "valore_medio": 13.05,
-          "risultato_pct": -53.0,
-          "giorni_alla_scadenza": 88,
+          "valore_medio": 8.76,
+          "risultato_pct": -68.4,
+          "giorni_alla_scadenza": 87,
           "azione": "ESCI: ETF chiuso sotto la media a 50 giorni"
         }
       ],
@@ -36,100 +36,100 @@
       "segnali": [],
       "vicini_al_segnale": [
         {
-          "etf": "XLU",
-          "nome": "Utility",
-          "prezzo": 43.32,
-          "massimo_55s": 44.12,
-          "distanza_dal_massimo": -1.8,
-          "sedute_dall_ultimo_massimo": 5,
-          "rialzo_1m": 1.8,
-          "rialzo_6m": -3.1,
+          "etf": "IBB",
+          "nome": "Biotech grandi",
+          "prezzo": 219.49,
+          "massimo_55s": 221.13,
+          "distanza_dal_massimo": -0.7,
+          "sedute_dall_ultimo_massimo": 14,
+          "rialzo_1m": 5.2,
+          "rialzo_6m": 29.2,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": false,
-          "ultimo_segnale": "2026-11-09T00:00:00.000",
-          "sedute_dal_segnale": 10,
+          "ultimo_segnale": "2026-11-04T00:00:00.000",
+          "sedute_dal_segnale": 14,
           "segnale_oggi": false
         },
         {
           "etf": "XLP",
           "nome": "Consumi di base",
-          "prezzo": 90.38,
+          "prezzo": 91.88,
           "massimo_55s": 92.6,
-          "distanza_dal_massimo": -2.4,
-          "sedute_dall_ultimo_massimo": 5,
-          "rialzo_1m": 2.4,
-          "rialzo_6m": 9.5,
+          "distanza_dal_massimo": -0.8,
+          "sedute_dall_ultimo_massimo": 6,
+          "rialzo_1m": 4.5,
+          "rialzo_6m": 10.1,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": false,
           "ultimo_segnale": "2026-10-16T00:00:00.000",
-          "sedute_dal_segnale": 26,
+          "sedute_dal_segnale": 27,
           "segnale_oggi": false
         },
         {
-          "etf": "XLY",
-          "nome": "Consumi discrezionali",
-          "prezzo": 116.93,
-          "massimo_55s": 122.33,
-          "distanza_dal_massimo": -4.4,
-          "sedute_dall_ultimo_massimo": 13,
-          "rialzo_1m": 3.4,
-          "rialzo_6m": -1.7,
+          "etf": "XLU",
+          "nome": "Utility",
+          "prezzo": 43.4,
+          "massimo_55s": 44.12,
+          "distanza_dal_massimo": -1.6,
+          "sedute_dall_ultimo_massimo": 6,
+          "rialzo_1m": 2.0,
+          "rialzo_6m": -2.5,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": false,
-          "ultimo_segnale": "2026-11-04T00:00:00.000",
-          "sedute_dal_segnale": 13,
+          "ultimo_segnale": "2026-11-09T00:00:00.000",
+          "sedute_dal_segnale": 11,
           "segnale_oggi": false
         },
         {
           "etf": "XLV",
           "nome": "Salute",
-          "prezzo": 179.42,
+          "prezzo": 184.72,
           "massimo_55s": 189.66,
-          "distanza_dal_massimo": -5.4,
-          "sedute_dall_ultimo_massimo": 13,
-          "rialzo_1m": 0.1,
-          "rialzo_6m": 21.8,
+          "distanza_dal_massimo": -2.6,
+          "sedute_dall_ultimo_massimo": 14,
+          "rialzo_1m": 3.0,
+          "rialzo_6m": 25.2,
           "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": false,
           "ultimo_segnale": "2026-10-15T00:00:00.000",
-          "sedute_dal_segnale": 27,
+          "sedute_dal_segnale": 28,
           "segnale_oggi": false
         },
         {
-          "etf": "IBB",
-          "nome": "Biotech grandi",
-          "prezzo": 208.7,
-          "massimo_55s": 221.13,
-          "distanza_dal_massimo": -5.6,
-          "sedute_dall_ultimo_massimo": 13,
-          "rialzo_1m": 0.5,
-          "rialzo_6m": 23.2,
-          "sopra_media50": false,
+          "etf": "XBI",
+          "nome": "Biotech piccole",
+          "prezzo": 156.82,
+          "massimo_55s": 161.93,
+          "distanza_dal_massimo": -3.2,
+          "sedute_dall_ultimo_massimo": 68,
+          "rialzo_1m": 4.2,
+          "rialzo_6m": 16.8,
+          "sopra_media50": true,
           "ok_massimo": false,
           "ok_mercato": false,
-          "ultimo_segnale": "2026-11-04T00:00:00.000",
-          "sedute_dal_segnale": 13,
+          "ultimo_segnale": "2026-07-07T00:00:00.000",
+          "sedute_dal_segnale": 99,
           "segnale_oggi": false
         }
       ]
     },
     "rimbalzo": {
-      "dati_al": "2026-11-23",
+      "dati_al": "2026-11-24",
       "filtro_mercato_ok": false,
       "posizioni_aperte": [
         {
           "etf": "SPY",
           "spread": "740/760",
           "scadenza": "2026-12-31",
-          "prezzo": 722.29,
+          "prezzo": 718.78,
           "pagato": 10.13,
-          "valore": 7.41,
-          "risultato_pct": -27,
-          "giorni": 38,
+          "valore": 5.85,
+          "risultato_pct": -42,
+          "giorni": 37,
           "azione": "tieni fino alla scadenza"
         }
       ],
@@ -137,61 +137,61 @@
       "segnali": [],
       "vicini_al_segnale": [
         {
+          "etf": "SMH",
+          "nome": "Semiconduttori",
+          "prezzo": 426.75,
+          "rsi2": 38.8,
+          "sedute_in_calo": 1,
+          "var_3gg": -4.6,
+          "dist_media200": -18.8,
+          "sopra_media200": false,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "XLK",
+          "nome": "Tecnologia",
+          "prezzo": 157.09,
+          "rsi2": 43.4,
+          "sedute_in_calo": 1,
+          "var_3gg": -2.2,
+          "dist_media200": -8.3,
+          "sopra_media200": false,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
+          "etf": "QQQ",
+          "nome": "Nasdaq 100",
+          "prezzo": 638.1,
+          "rsi2": 46.8,
+          "sedute_in_calo": 1,
+          "var_3gg": -1.1,
+          "dist_media200": -6.5,
+          "sopra_media200": false,
+          "segnale": false,
+          "motivo": ""
+        },
+        {
           "etf": "XLE",
           "nome": "Energia",
-          "prezzo": 59.87,
-          "rsi2": 1.8,
-          "sedute_in_calo": 6,
-          "var_3gg": -2.3,
-          "dist_media200": 1.0,
+          "prezzo": 60.45,
+          "rsi2": 48.6,
+          "sedute_in_calo": 0,
+          "var_3gg": -0.7,
+          "dist_media200": 1.9,
           "sopra_media200": true,
           "segnale": false,
-          "motivo": "RSI 2 a 2, 6 sedute in calo"
+          "motivo": ""
         },
         {
-          "etf": "XLP",
-          "nome": "Consumi di base",
-          "prezzo": 90.38,
-          "rsi2": 38.9,
+          "etf": "EEM",
+          "nome": "Emergenti",
+          "prezzo": 56.69,
+          "rsi2": 48.9,
           "sedute_in_calo": 1,
-          "var_3gg": -0.9,
-          "dist_media200": 7.2,
-          "sopra_media200": true,
-          "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "XLF",
-          "nome": "Finanziari",
-          "prezzo": 55.65,
-          "rsi2": 55.2,
-          "sedute_in_calo": 0,
-          "var_3gg": -1.4,
-          "dist_media200": 3.5,
-          "sopra_media200": true,
-          "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "XLV",
-          "nome": "Salute",
-          "prezzo": 179.42,
-          "rsi2": 55.7,
-          "sedute_in_calo": 0,
-          "var_3gg": -1.0,
-          "dist_media200": 12.0,
-          "sopra_media200": true,
-          "segnale": false,
-          "motivo": ""
-        },
-        {
-          "etf": "EFA",
-          "nome": "Paesi sviluppati ex USA",
-          "prezzo": 98.76,
-          "rsi2": 57.2,
-          "sedute_in_calo": 0,
-          "var_3gg": -1.5,
-          "dist_media200": -3.8,
+          "var_3gg": -0.1,
+          "dist_media200": -11.1,
           "sopra_media200": false,
           "segnale": false,
           "motivo": ""
@@ -200,17 +200,17 @@
     }
   },
   "correzioni": {
-    "dati_al": "2026-11-23",
+    "dati_al": "2026-11-24",
     "semaforo": "R2",
     "significato": "giallo: sotto la media a 200, lavoro stabile. Put spread fermi, si prepara l'acquisto (L1, L2)",
-    "spx": 7237.17,
-    "media200": 7350.1,
-    "distanza_media200_pct": -1.5,
+    "spx": 7201.09,
+    "media200": 7351.29,
+    "distanza_media200_pct": -2.0,
     "media200_in_calo": false,
-    "media50": 7617.6,
-    "calo_dal_massimo_52s_pct": -7.4,
-    "sedute_dal_massimo": 34,
-    "vix": 26.62,
+    "media50": 7609.91,
+    "calo_dal_massimo_52s_pct": -7.9,
+    "sedute_dal_massimo": 35,
+    "vix": 26.36,
     "vix_max_60_sedute": 35.89,
     "vix_sopra_40_nelle_ultime_120": false,
     "disoccupazione": {
@@ -227,13 +227,13 @@
     "report": "https://claude.ai/artifact/1zifTFsi8fAVzHz2gLhxZA"
   },
   "fine_mese": {
-    "dati_al": "2026-11-23",
-    "spy": 722.29,
-    "sedute_alla_fine_del_mese": 4,
+    "dati_al": "2026-11-24",
+    "spy": 718.78,
+    "sedute_alla_fine_del_mese": 3,
     "ultima_seduta": "2026-11-30",
     "azioni_da_comprare": 0,
     "stop_indicativo": null,
-    "spy_meno_tlt_da_inizio_mese_pct": -4.66,
+    "spy_meno_tlt_da_inizio_mese_pct": -4.88,
     "soglia_pct": -3.02,
     "giorno_del_segnale": false,
     "segnale_attivo": false,
@@ -708,8 +708,8 @@
     "completo": true,
     "problemi": {
       "dati_non_validi": {
-        "volatilità di base negativa": 26,
-        "varianza dell'evento negativa": 16,
+        "volatilità di base negativa": 16,
+        "varianza dell'evento negativa": 15,
         "meno di due scadenze che contengono l'evento": 4
       },
       "orario_ignoto": "37 titoli nella finestra senza orario (trattati come prima dell'apertura)"
@@ -744,17 +744,17 @@
         "rating_ok": 517,
         "utili_prossimi_60_giorni": 55,
         "in_finestra": 29,
-        "cancello_ok": 5,
-        "validi": 5,
-        "economici": 0,
+        "cancello_ok": 7,
+        "validi": 7,
+        "economici": 2,
         "cari": 1,
-        "dato_non_valido": 2,
+        "dato_non_valido": 1,
         "storico_insufficiente": 0,
         "senza_data_utili": 463,
         "esclusi_per_motivo": {
-          "liquidità: open interest": 13,
-          "liquidità: forchetta": 9,
-          "dato non valido: varianza dell'evento negativa": 2
+          "liquidità: open interest": 11,
+          "liquidità: forchetta": 10,
+          "dato non valido: volatilità di base negativa": 1
         }
       },
       "small/mid": {
@@ -766,17 +766,17 @@
         "cancello_ok": 3,
         "validi": 3,
         "economici": 0,
-        "cari": 1,
-        "dato_non_valido": 44,
+        "cari": 0,
+        "dato_non_valido": 34,
         "storico_insufficiente": 0,
         "senza_data_utili": 1851,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 34,
-          "dato non valido: volatilità di base negativa": 26,
+          "liquidità: forchetta": 43,
+          "dato non valido: varianza dell'evento negativa": 15,
+          "dato non valido: volatilità di base negativa": 15,
           "liquidità: liquidity rating": 15,
-          "dato non valido: varianza dell'evento negativa": 14,
           "dato non valido: meno di due scadenze che contengono l'evento": 4,
-          "liquidità: open interest": 2
+          "liquidità: open interest": 3
         }
       }
     },
@@ -793,20 +793,20 @@
       {
         "segmento": "large",
         "fascia": "4-7",
-        "validi": 3,
-        "economici": 0,
-        "cari": 1,
-        "mediana_rapporto": 0.949,
-        "mediana_implicito_su_straddle": 0.69
+        "validi": 4,
+        "economici": 1,
+        "cari": 0,
+        "mediana_rapporto": 0.856,
+        "mediana_implicito_su_straddle": 0.728
       },
       {
         "segmento": "large",
         "fascia": "8-15",
-        "validi": 2,
-        "economici": 0,
-        "cari": 0,
-        "mediana_rapporto": 0.937,
-        "mediana_implicito_su_straddle": 0.578
+        "validi": 3,
+        "economici": 1,
+        "cari": 1,
+        "mediana_rapporto": 1.146,
+        "mediana_implicito_su_straddle": 0.545
       },
       {
         "segmento": "small/mid",
@@ -820,104 +820,108 @@
       {
         "segmento": "small/mid",
         "fascia": "4-7",
-        "validi": 1,
+        "validi": 2,
         "economici": 0,
         "cari": 0,
-        "mediana_rapporto": 1.118,
-        "mediana_implicito_su_straddle": 0.475
+        "mediana_rapporto": 0.871,
+        "mediana_implicito_su_straddle": 0.888
       },
       {
         "segmento": "small/mid",
         "fascia": "8-15",
-        "validi": 2,
+        "validi": 1,
         "economici": 0,
-        "cari": 1,
-        "mediana_rapporto": 1.585,
-        "mediana_implicito_su_straddle": 0.769
+        "cari": 0,
+        "mediana_rapporto": 1.061,
+        "mediana_implicito_su_straddle": 0.885
       }
     ],
     "fotografie": 127,
-    "registro_eventi": "non aggiornato: prima della chiusura, giorno senza seduta o taratura",
+    "registro_eventi": {
+      "righe": 2579,
+      "misurati": 1879,
+      "misurati_stasera": 99
+    },
     "verdetto_per_fascia": [
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "1-3",
-        "eventi": 215,
-        "quota_oltre_tutti": 0.386,
+        "eventi": 218,
+        "quota_oltre_tutti": 0.39,
         "mediana_realizzato_su_implicito": 0.786,
-        "economici": 38,
-        "quota_oltre_economici": 0.421,
-        "differenza_punti": 3.5
+        "economici": 39,
+        "quota_oltre_economici": 0.436,
+        "differenza_punti": 4.6
       },
       {
         "segmento": "small/mid",
         "stagione": "2026-T4",
         "fascia": "1-3",
-        "eventi": 111,
-        "quota_oltre_tutti": 0.324,
-        "mediana_realizzato_su_implicito": 0.742,
+        "eventi": 114,
+        "quota_oltre_tutti": 0.325,
+        "mediana_realizzato_su_implicito": 0.733,
         "economici": 19,
         "quota_oltre_economici": 0.316,
-        "differenza_punti": -0.8
+        "differenza_punti": -0.9
       },
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "4-7",
-        "eventi": 196,
-        "quota_oltre_tutti": 0.459,
-        "mediana_realizzato_su_implicito": 0.848,
+        "eventi": 197,
+        "quota_oltre_tutti": 0.457,
+        "mediana_realizzato_su_implicito": 0.843,
         "economici": 43,
         "quota_oltre_economici": 0.535,
-        "differenza_punti": 7.6
+        "differenza_punti": 7.8
       },
       {
         "segmento": "small/mid",
         "stagione": "2026-T4",
         "fascia": "4-7",
-        "eventi": 106,
-        "quota_oltre_tutti": 0.387,
-        "mediana_realizzato_su_implicito": 0.794,
+        "eventi": 109,
+        "quota_oltre_tutti": 0.385,
+        "mediana_realizzato_su_implicito": 0.787,
         "economici": 24,
         "quota_oltre_economici": 0.542,
-        "differenza_punti": 15.5
+        "differenza_punti": 15.7
       },
       {
         "segmento": "large",
         "stagione": "2026-T4",
         "fascia": "8-15",
-        "eventi": 168,
-        "quota_oltre_tutti": 0.411,
-        "mediana_realizzato_su_implicito": 0.821,
+        "eventi": 170,
+        "quota_oltre_tutti": 0.412,
+        "mediana_realizzato_su_implicito": 0.827,
         "economici": 39,
         "quota_oltre_economici": 0.462,
-        "differenza_punti": 5.1
+        "differenza_punti": 5.0
       },
       {
         "segmento": "small/mid",
         "stagione": "2026-T4",
         "fascia": "8-15",
-        "eventi": 114,
+        "eventi": 117,
         "quota_oltre_tutti": 0.342,
-        "mediana_realizzato_su_implicito": 0.727,
-        "economici": 19,
-        "quota_oltre_economici": 0.421,
-        "differenza_punti": 7.9
+        "mediana_realizzato_su_implicito": 0.713,
+        "economici": 20,
+        "quota_oltre_economici": 0.45,
+        "differenza_punti": 10.8
       }
     ],
-    "secondi": 17.6,
+    "secondi": 21.7,
     "tappe_secondi": {
-      "universo": 0.1,
-      "metriche": 3.9,
-      "dolthub": 7.1,
-      "implicito": 7.2,
-      "catene": 9.4,
-      "cancello": 9.7,
-      "prezzi": 17.5,
-      "storico": 17.5,
-      "semaforo_b": 17.6,
-      "registri": 17.6
+      "universo": 0.3,
+      "metriche": 6.1,
+      "dolthub": 7.5,
+      "implicito": 7.5,
+      "catene": 10.9,
+      "cancello": 11.4,
+      "prezzi": 20.2,
+      "storico": 20.3,
+      "semaforo_b": 20.3,
+      "registri": 21.7
     }
   }
 }

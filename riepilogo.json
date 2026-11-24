@@ -1,5 +1,5 @@
 {
-  "generato": "2026-11-24 06:17",
+  "generato": "2026-11-24 07:01",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -16,8 +16,8 @@
           "strike": 670.0,
           "scadenza": "2027-02-19",
           "pagato": 29.17,
-          "valore_medio": 28.55,
-          "risultato_pct": -2.1,
+          "valore_medio": 29.17,
+          "risultato_pct": 0.0,
           "giorni_alla_scadenza": 88,
           "azione": "ESCI: ETF chiuso sotto la media a 50 giorni"
         },
@@ -26,8 +26,8 @@
           "strike": 710.0,
           "scadenza": "2027-02-19",
           "pagato": 27.75,
-          "valore_medio": 12.45,
-          "risultato_pct": -55.1,
+          "valore_medio": 13.05,
+          "risultato_pct": -53.0,
           "giorni_alla_scadenza": 88,
           "azione": "ESCI: ETF chiuso sotto la media a 50 giorni"
         }
@@ -127,8 +127,8 @@
           "scadenza": "2026-12-31",
           "prezzo": 722.29,
           "pagato": 10.13,
-          "valore": 7.24,
-          "risultato_pct": -29,
+          "valore": 7.41,
+          "risultato_pct": -27,
           "giorni": 38,
           "azione": "tieni fino alla scadenza"
         }
@@ -906,18 +906,18 @@
         "differenza_punti": 7.9
       }
     ],
-    "secondi": 18.3,
+    "secondi": 17.6,
     "tappe_secondi": {
-      "universo": 0.2,
-      "metriche": 5.4,
-      "dolthub": 8.0,
-      "implicito": 8.1,
-      "catene": 10.6,
-      "cancello": 10.9,
-      "prezzi": 18.3,
-      "storico": 18.3,
-      "semaforo_b": 18.3,
-      "registri": 18.3
+      "universo": 0.1,
+      "metriche": 3.9,
+      "dolthub": 7.1,
+      "implicito": 7.2,
+      "catene": 9.4,
+      "cancello": 9.7,
+      "prezzi": 17.5,
+      "storico": 17.5,
+      "semaforo_b": 17.6,
+      "registri": 17.6
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generato": "2026-11-23 22:58",
+  "generato": "2026-11-24 06:17",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -11,6 +11,16 @@
       "dati_al": "2026-11-23",
       "filtro_mercato_ok": false,
       "posizioni_aperte": [
+        {
+          "etf": "QQQ",
+          "strike": 670.0,
+          "scadenza": "2027-02-19",
+          "pagato": 29.17,
+          "valore_medio": 28.55,
+          "risultato_pct": -2.1,
+          "giorni_alla_scadenza": 88,
+          "azione": "ESCI: ETF chiuso sotto la media a 50 giorni"
+        },
         {
           "etf": "QQQ",
           "strike": 710.0,
@@ -118,23 +128,12 @@
           "prezzo": 722.29,
           "pagato": 10.13,
           "valore": 7.24,
-          "risultato_pct": -29.0,
+          "risultato_pct": -29,
           "giorni": 38,
           "azione": "tieni fino alla scadenza"
-        },
-        {
-          "etf": "XBI",
-          "spread": "152/165",
-          "scadenza": "2026-11-20",
-          "prezzo": 147.16,
-          "pagato": 4.55,
-          "valore": null,
-          "risultato_pct": null,
-          "giorni": -3,
-          "azione": "scadenza oggi: lascia scadere"
         }
       ],
-      "posti_liberi": 1,
+      "posti_liberi": 2,
       "segnali": [],
       "vicini_al_segnale": [
         {
@@ -242,44 +241,43 @@
     "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
-    "generato": "2026-11-21 02:05",
-    "giornata": "2026-11-20",
+    "generato": "2026-11-24 05:35",
+    "giornata": "2026-11-23",
     "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "🏁 Registro dei casi, «tema arrivato alla massa»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30).",
-      "SPY (posizione aperta): tema «Bolla e crollo» in amplificazione sulle grandi testate; ricerca «AI bubble» al picco; ricerca «layoffs» in salita",
-      "QQQ (posizione aperta): tema «Bolla e crollo» in amplificazione sulle grandi testate; ricerca «AI bubble» al picco; ricerca «Nvidia stock» al picco",
-      "Difesa e cybersicurezza: arrivata alla massa (copertura mondiale doppia del solito) (15 titoli, 2.44× il solito, 8 fonti)",
-      "Bolla e crollo: in amplificazione sulle grandi testate (56 titoli, 2.11× il solito, 11 fonti)",
-      "Parole nuove in più fonti: «anthropic shares» (6), «rout deepens» (3), «tech tumble» (3), «third straight» (3)",
-      "Polymarket: «AI bubble burst in 2026?» 59% (+53 pt in un giorno)",
-      "Polymarket: «Will Anthropic's valuation hit (LOW) $800B by December 31?» 30% (+17 pt in un giorno)",
-      "Insider in gruppo: FUN (3 insider, 30.666.320 $), CGON (2 insider, 2.665.586 $), EFC (2 insider, 2.181.884 $), HMH (2 insider, 1.736.052 $)",
-      "Insider che comprano nel calo: ADIG (-46% nel mese), ALNY (-34% nel mese), AOMR (-23% nel mese), ARR (-14% nel mese)",
-      "Ricerche Google in salita: «Google stock», «Costco stock», «layoffs»",
+      "🏁 Registro dei casi, «insider nel calo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30).",
+      "QQQ (posizione aperta): ricerca «AI bubble» al picco; ricerca «Nvidia stock» al picco",
+      "GOOGL (posizione aperta): ricerca «Google stock» in salita; operazioni del Congresso",
+      "SPY (posizione aperta): tema «Recessione e lavoro» in calo; ricerca «AI bubble» al picco; ricerca «layoffs» in salita",
+      "Parole nuove in più fonti: «huang's return» (7), «huang return» (6), «return nvidia» (6), «huang ceo» (4)",
+      "Polymarket: «New NVIDIA CEO named by December 31, 2026?» 100% (+76 pt in un giorno)",
+      "Polymarket: «AI bubble burst in 2026?» 11% (-48 pt in un giorno)",
+      "Insider in gruppo: CGON (2 insider, 2.665.586 $), EFC (2 insider, 2.181.884 $), HMH (2 insider, 1.736.052 $), DKNG (3 insider, 1.450.887 $)",
+      "Insider che comprano nel calo: ADIG (-41% nel mese), ALNY (-30% nel mese), AOMR (-26% nel mese), ARR (-11% nel mese)",
+      "Ricerche Google in salita: «Google stock», «Costco stock», «layoffs», «gold price»",
       "Ricerche Google al picco: «Nvidia stock», «Microsoft stock»",
-      "Registro dei casi: 10 nuovi casi annotati per il test"
+      "Registro dei casi: 4 nuovi casi annotati per il test"
     ],
     "traguardi": [
-      "Registro dei casi, «tema arrivato alla massa»: 1 caso chiuso a 20 sedute (il primo; il giudizio arriva a 30)."
+      "Registro dei casi, «insider nel calo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30)."
     ],
     "stato_test": {
       "temi_giorni_storico": 20,
       "temi_pronti": true,
       "registro": {
         "insider nel calo": {
-          "casi": 76,
-          "chiusi_20": 9,
+          "casi": 79,
+          "chiusi_20": 10,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.1304
+          "diff_20": -0.127
         },
         "insider in gruppo": {
           "casi": 61,
-          "chiusi_20": 12,
+          "chiusi_20": 14,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.0906
+          "diff_20": -0.0944
         },
         "tema sulle grandi testate": {
           "casi": 21,
@@ -290,13 +288,13 @@
         },
         "tema nascente": {
           "casi": 11,
-          "chiusi_20": 6,
+          "chiusi_20": 7,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.0452
+          "diff_20": -0.0473
         },
         "ricerca in salita": {
-          "casi": 4,
+          "casi": 5,
           "chiusi_20": 1,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -304,10 +302,10 @@
         },
         "tema arrivato alla massa": {
           "casi": 4,
-          "chiusi_20": 1,
+          "chiusi_20": 2,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.1225
+          "diff_20": -0.1126
         },
         "ricerca al picco": {
           "casi": 3,
@@ -318,109 +316,78 @@
         }
       }
     },
-    "temi_in_crescita": [
-      {
-        "tema": "Difesa e cybersicurezza",
-        "fase": "arrivata alla massa (copertura mondiale doppia del solito)",
-        "titoli": 15,
-        "rapporto": 2.44,
-        "esempio": "President Trump Taps Pentagon Cyber Chief Kirsten Davies as National Cyber Director"
-      },
-      {
-        "tema": "Bolla e crollo",
-        "fase": "in amplificazione sulle grandi testate",
-        "titoli": 56,
-        "rapporto": 2.11,
-        "esempio": "Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens"
-      }
-    ],
+    "temi_in_crescita": [],
     "narrative_emergenti": [
       {
-        "parole": "anthropic shares",
+        "parole": "huang's return",
+        "fonti": 7,
+        "esempio": "Michael Burry Sold Half His NVIDIA Puts Before Huang's Return Sparked a 31% Rally"
+      },
+      {
+        "parole": "huang return",
         "fonti": 6,
-        "esempio": "Anthropic’s shares surged and then retreated on their debut trading day! \"The Big Short\" investor Michael Burry increased his short position"
+        "esempio": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing."
       },
       {
-        "parole": "rout deepens",
-        "fonti": 3,
-        "esempio": "Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens"
+        "parole": "return nvidia",
+        "fonti": 6,
+        "esempio": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia"
       },
       {
-        "parole": "tech tumble",
-        "fonti": 3,
-        "esempio": "European Tech Stocks Tumble as AI Selloff Intensifies"
+        "parole": "huang ceo",
+        "fonti": 4,
+        "esempio": "European Chip Stocks Surge After Nvidia Reinstates Huang as CEO"
       },
       {
-        "parole": "third straight",
-        "fonti": 3,
-        "esempio": "Oil Futures Fall for Third Straight Week on Supply Outlook"
+        "parole": "back nvidia",
+        "fonti": 4,
+        "esempio": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him."
       },
       {
-        "parole": "crowdstrike talks",
-        "fonti": 3,
-        "esempio": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor"
-      },
-      {
-        "parole": "record billion",
-        "fonti": 3,
-        "esempio": "Fresh off a record $3 billion CMU pledge, Ken Griffin sends Pittsburgh 3 dinosaurs and $5 million"
+        "parole": "huang reinstated",
+        "fonti": 4,
+        "esempio": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%"
       }
     ],
     "mercati_previsione_mosse": [
       {
         "mercato": "Polymarket",
+        "domanda": "New NVIDIA CEO named by December 31, 2026?",
+        "prob": 1.0,
+        "var_giorno": 0.755
+      },
+      {
+        "mercato": "Polymarket",
         "domanda": "AI bubble burst in 2026?",
-        "prob": 0.592,
-        "var_giorno": 0.526
+        "prob": 0.113,
+        "var_giorno": -0.479
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will Anthropic's valuation hit (LOW) $800B by December 31?",
-        "prob": 0.305,
-        "var_giorno": 0.174
+        "domanda": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
+        "prob": 0.845,
+        "var_giorno": 0.255
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will Anthropic have the best AI model at the end of November 2026?",
-        "prob": 0.015,
-        "var_giorno": -0.17
+        "domanda": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
+        "prob": 0.495,
+        "var_giorno": 0.165
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will Google have the best AI model at the end of December 2026?",
-        "prob": 0.855,
-        "var_giorno": 0.14
+        "domanda": "Israel x Iran ceasefire continues through December 15?",
+        "prob": 0.84,
+        "var_giorno": 0.155
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will Anthropic have the best AI model at the end of December 2026?",
-        "prob": 0.1,
-        "var_giorno": -0.115
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-        "prob": 0.515,
-        "var_giorno": -0.1
+        "domanda": "Israel x Iran ceasefire continues through December 31?",
+        "prob": 0.755,
+        "var_giorno": 0.13
       }
     ],
     "insider_gruppi": [
-      {
-        "ticker": "FUN",
-        "emittente": "Six Flags Entertainment Corporation/NEW",
-        "insider": 3,
-        "valore_totale": 30666320,
-        "ultima_operazione": "2026-11-18",
-        "chi": [
-          "Bennett Christopher Lawrence (Chief Legal Officer)",
-          "HADDRILL RICHARD M (consigliere, Executive Chair)",
-          "JAFFER REHAN (consigliere)"
-        ],
-        "rendimento_1m": 0.68,
-        "dal_massimo_12m": -0.524,
-        "sopra_media200": false,
-        "sp500": false
-      },
       {
         "ticker": "CGON",
         "emittente": "CG Oncology, Inc.",
@@ -431,8 +398,8 @@
           "Kalofonos Isabel (Chief Commercial Officer)",
           "Kuan Arthur (consigliere, Chief Executive Officer)"
         ],
-        "rendimento_1m": 0.316,
-        "dal_massimo_12m": -0.034,
+        "rendimento_1m": 0.353,
+        "dal_massimo_12m": -0.015,
         "sopra_media200": true,
         "sp500": false
       },
@@ -447,7 +414,7 @@
           "Vranos Michael W (Co-Chief Investment Officer)"
         ],
         "rendimento_1m": -0.032,
-        "dal_massimo_12m": -0.177,
+        "dal_massimo_12m": -0.155,
         "sopra_media200": false,
         "sp500": false
       },
@@ -461,8 +428,8 @@
           "Bergsvik Eirik (Chief Executive Officer)",
           "McGee Thomas W. (Chief Financial Officer)"
         ],
-        "rendimento_1m": -0.376,
-        "dal_massimo_12m": -0.538,
+        "rendimento_1m": -0.386,
+        "dal_massimo_12m": -0.54,
         "sopra_media200": null,
         "sp500": false
       },
@@ -477,8 +444,8 @@
           "Kalish Matthew (consigliere)",
           "Wendt Gregory Westin (consigliere)"
         ],
-        "rendimento_1m": -0.181,
-        "dal_massimo_12m": -0.536,
+        "rendimento_1m": -0.246,
+        "dal_massimo_12m": -0.565,
         "sopra_media200": false,
         "sp500": false
       },
@@ -494,63 +461,78 @@
           "Schlacks Jabbok (consigliere, Founder & CEO)",
           "Schlacks William J. (consigliere, Founder & President)"
         ],
-        "rendimento_1m": -0.163,
-        "dal_massimo_12m": -0.593,
+        "rendimento_1m": -0.1,
+        "dal_massimo_12m": -0.584,
         "sopra_media200": false,
         "sp500": false
+      },
+      {
+        "ticker": "COHR",
+        "emittente": "COHERENT CORP.",
+        "insider": 2,
+        "valore_totale": 1220285,
+        "ultima_operazione": "2026-11-10",
+        "chi": [
+          "ANDERSON JAMES ROBERT (consigliere, CEO)",
+          "Digirolomo Enrico (consigliere)"
+        ],
+        "rendimento_1m": 0.031,
+        "dal_massimo_12m": -0.494,
+        "sopra_media200": false,
+        "sp500": true
       }
     ],
     "insider_nel_calo": [
       {
         "ticker": "ADIG",
-        "rendimento_1m": -0.462,
-        "dal_massimo_12m": -0.685,
+        "rendimento_1m": -0.408,
+        "dal_massimo_12m": -0.66,
         "sopra_media200": null,
         "sp500": false
       },
       {
         "ticker": "ALNY",
-        "rendimento_1m": -0.343,
-        "dal_massimo_12m": -0.688,
+        "rendimento_1m": -0.304,
+        "dal_massimo_12m": -0.67,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "AOMR",
-        "rendimento_1m": -0.23,
-        "dal_massimo_12m": -0.385,
+        "rendimento_1m": -0.259,
+        "dal_massimo_12m": -0.387,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "ARR",
-        "rendimento_1m": -0.137,
-        "dal_massimo_12m": -0.341,
+        "rendimento_1m": -0.113,
+        "dal_massimo_12m": -0.319,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "ATEC",
-        "rendimento_1m": -0.365,
+        "rendimento_1m": -0.38,
         "dal_massimo_12m": -0.696,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "BFH",
-        "rendimento_1m": -0.139,
-        "dal_massimo_12m": -0.173,
+        "ticker": "BOTJ",
+        "rendimento_1m": -0.169,
+        "dal_massimo_12m": -0.176,
         "sopra_media200": true,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 14,
+    "congresso_comunicazioni": 15,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
-      "settimana": "2026-11-08",
-      "indice": 10.4,
-      "percentile_52_settimane": 13,
+      "settimana": "2026-11-15",
+      "indice": 12.0,
+      "percentile_52_settimane": 38,
       "sopra_90": false,
       "lettura": "indice di paura nella norma"
     },
@@ -574,6 +556,12 @@
         "ultime4_vs_3mesi": 1.22
       },
       {
+        "parola": "gold price",
+        "gruppo": "temi 3",
+        "stato": "in salita",
+        "ultime4_vs_3mesi": 1.21
+      },
+      {
         "parola": "Nvidia stock",
         "gruppo": "aziende 3",
         "stato": "al picco",
@@ -588,38 +576,38 @@
     ],
     "posizioni_e_segnali": [
       {
-        "ticker": "SPY",
-        "origine": "posizione aperta",
-        "da_notare": [
-          "tema «Bolla e crollo» in amplificazione sulle grandi testate",
-          "ricerca «AI bubble» al picco",
-          "ricerca «layoffs» in salita"
-        ],
-        "mese": -0.074,
-        "sopra_media200": false,
-        "vol_implicita": 277.7
-      },
-      {
-        "ticker": "XBI",
-        "origine": "posizione aperta",
-        "da_notare": [
-          "niente di nuovo"
-        ],
-        "mese": -0.057,
-        "sopra_media200": true,
-        "vol_implicita": null
-      },
-      {
         "ticker": "QQQ",
         "origine": "posizione aperta",
         "da_notare": [
-          "tema «Bolla e crollo» in amplificazione sulle grandi testate",
           "ricerca «AI bubble» al picco",
           "ricerca «Nvidia stock» al picco"
         ],
-        "mese": -0.111,
+        "mese": -0.076,
         "sopra_media200": false,
-        "vol_implicita": 240.0
+        "vol_implicita": 32.2
+      },
+      {
+        "ticker": "GOOGL",
+        "origine": "posizione aperta",
+        "da_notare": [
+          "ricerca «Google stock» in salita",
+          "operazioni del Congresso"
+        ],
+        "mese": -0.119,
+        "sopra_media200": false,
+        "vol_implicita": 41.6
+      },
+      {
+        "ticker": "SPY",
+        "origine": "posizione aperta",
+        "da_notare": [
+          "tema «Recessione e lavoro» in calo",
+          "ricerca «AI bubble» al picco",
+          "ricerca «layoffs» in salita"
+        ],
+        "mese": -0.05,
+        "sopra_media200": false,
+        "vol_implicita": 23.3
       },
       {
         "ticker": "AAOI",
@@ -627,9 +615,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.49,
+        "mese": -0.427,
         "sopra_media200": false,
-        "vol_implicita": 147.5
+        "vol_implicita": 123.0
       },
       {
         "ticker": "VST",
@@ -637,37 +625,31 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.205,
+        "mese": -0.116,
         "sopra_media200": false,
-        "vol_implicita": 91.9
+        "vol_implicita": 56.1
       }
     ],
     "registro_casi": {
       "nuovi_oggi": [
-        "tema sulle grandi testate: Bolla e crollo → SPY",
-        "ricerca in salita: Google stock → GOOGL",
-        "ricerca in salita: layoffs → IWM",
-        "ricerca al picco: Nvidia stock → NVDA",
-        "insider in gruppo: CTGO → CTGO",
-        "insider nel calo: BFH → BFH",
-        "insider nel calo: BOTJ → BOTJ",
-        "insider nel calo: CSQR → CSQR",
-        "insider nel calo: ELV → ELV",
-        "insider nel calo: EQPT → EQPT"
+        "ricerca in salita: gold price → COPX",
+        "insider nel calo: IMMX → IMMX",
+        "insider nel calo: LAND → LAND",
+        "insider nel calo: LEGN → LEGN"
       ],
       "bilancio": [
         {
           "tipo": "insider nel calo",
-          "casi": 76,
-          "chiusi_20": 9,
-          "diff_20": -0.1304,
+          "casi": 79,
+          "chiusi_20": 10,
+          "diff_20": -0.127,
           "giudizio": "in raccolta"
         },
         {
           "tipo": "insider in gruppo",
           "casi": 61,
-          "chiusi_20": 12,
-          "diff_20": -0.0906,
+          "chiusi_20": 14,
+          "diff_20": -0.0944,
           "giudizio": "in raccolta"
         },
         {
@@ -680,13 +662,13 @@
         {
           "tipo": "tema nascente",
           "casi": 11,
-          "chiusi_20": 6,
-          "diff_20": -0.0452,
+          "chiusi_20": 7,
+          "diff_20": -0.0473,
           "giudizio": "in raccolta"
         },
         {
           "tipo": "ricerca in salita",
-          "casi": 4,
+          "casi": 5,
           "chiusi_20": 1,
           "diff_20": 0.0565,
           "giudizio": "in raccolta"
@@ -694,8 +676,8 @@
         {
           "tipo": "tema arrivato alla massa",
           "casi": 4,
-          "chiusi_20": 1,
-          "diff_20": -0.1225,
+          "chiusi_20": 2,
+          "diff_20": -0.1126,
           "giudizio": "in raccolta"
         },
         {
@@ -708,6 +690,7 @@
       ]
     },
     "fonti_non_raggiungibili": [
+      "SEC Form 4",
       "Yahoo Finance",
       "r/wallstreetbets",
       "r/stocks",
@@ -715,20 +698,21 @@
       "r/options",
       "r/StockMarket",
       "r/Economics",
-      "GDELT (Difesa e cybersicurezza)"
+      "GDELT (IA: investimenti e data center)",
+      "GDELT (Dazi e commercio)"
     ]
   },
   "radar_movimenti": {
     "stato": "in prova, solo registro",
-    "data": "2026-11-23",
+    "data": "2026-11-24",
     "completo": true,
     "problemi": {
       "dati_non_validi": {
         "volatilità di base negativa": 26,
         "varianza dell'evento negativa": 16,
-        "meno di due scadenze che contengono l'evento": 5
+        "meno di due scadenze che contengono l'evento": 4
       },
-      "orario_ignoto": "35 titoli nella finestra senza orario (trattati come prima dell'apertura)"
+      "orario_ignoto": "37 titoli nella finestra senza orario (trattati come prima dell'apertura)"
     },
     "nota": "Solo informazione per l'agente: nessun ordine e nessuna regola nuova. Piano: strategia/piano-radar-movimenti.md",
     "soglie": {
@@ -758,18 +742,18 @@
         "universo": 518,
         "con_metriche": 518,
         "rating_ok": 517,
-        "utili_prossimi_60_giorni": 58,
-        "in_finestra": 30,
-        "cancello_ok": 9,
-        "validi": 9,
-        "economici": 2,
-        "cari": 3,
+        "utili_prossimi_60_giorni": 55,
+        "in_finestra": 29,
+        "cancello_ok": 5,
+        "validi": 5,
+        "economici": 0,
+        "cari": 1,
         "dato_non_valido": 2,
         "storico_insufficiente": 0,
-        "senza_data_utili": 460,
+        "senza_data_utili": 463,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 11,
-          "liquidità: open interest": 8,
+          "liquidità: open interest": 13,
+          "liquidità: forchetta": 9,
           "dato non valido: varianza dell'evento negativa": 2
         }
       },
@@ -777,22 +761,22 @@
         "universo": 2000,
         "con_metriche": 2000,
         "rating_ok": 1688,
-        "utili_prossimi_60_giorni": 159,
-        "in_finestra": 96,
+        "utili_prossimi_60_giorni": 149,
+        "in_finestra": 98,
         "cancello_ok": 3,
         "validi": 3,
-        "economici": 1,
-        "cari": 0,
-        "dato_non_valido": 45,
+        "economici": 0,
+        "cari": 1,
+        "dato_non_valido": 44,
         "storico_insufficiente": 0,
-        "senza_data_utili": 1841,
+        "senza_data_utili": 1851,
         "esclusi_per_motivo": {
-          "liquidità: forchetta": 31,
+          "liquidità: forchetta": 34,
           "dato non valido: volatilità di base negativa": 26,
+          "liquidità: liquidity rating": 15,
           "dato non valido: varianza dell'evento negativa": 14,
-          "liquidità: liquidity rating": 14,
-          "dato non valido: meno di due scadenze che contengono l'evento": 5,
-          "liquidità: open interest": 3
+          "dato non valido: meno di due scadenze che contengono l'evento": 4,
+          "liquidità: open interest": 2
         }
       }
     },
@@ -800,29 +784,29 @@
       {
         "segmento": "large",
         "fascia": "1-3",
-        "validi": 1,
+        "validi": 0,
         "economici": 0,
         "cari": 0,
-        "mediana_rapporto": 0.829,
-        "mediana_implicito_su_straddle": 0.8
+        "mediana_rapporto": null,
+        "mediana_implicito_su_straddle": null
       },
       {
         "segmento": "large",
         "fascia": "4-7",
-        "validi": 6,
-        "economici": 2,
-        "cari": 2,
-        "mediana_rapporto": 0.968,
-        "mediana_implicito_su_straddle": 0.719
+        "validi": 3,
+        "economici": 0,
+        "cari": 1,
+        "mediana_rapporto": 0.949,
+        "mediana_implicito_su_straddle": 0.69
       },
       {
         "segmento": "large",
         "fascia": "8-15",
         "validi": 2,
         "economici": 0,
-        "cari": 1,
-        "mediana_rapporto": 1.111,
-        "mediana_implicito_su_straddle": 0.716
+        "cari": 0,
+        "mediana_rapporto": 0.937,
+        "mediana_implicito_su_straddle": 0.578
       },
       {
         "segmento": "small/mid",
@@ -836,28 +820,24 @@
       {
         "segmento": "small/mid",
         "fascia": "4-7",
-        "validi": 2,
-        "economici": 1,
+        "validi": 1,
+        "economici": 0,
         "cari": 0,
-        "mediana_rapporto": 0.951,
-        "mediana_implicito_su_straddle": 0.652
+        "mediana_rapporto": 1.118,
+        "mediana_implicito_su_straddle": 0.475
       },
       {
         "segmento": "small/mid",
         "fascia": "8-15",
-        "validi": 1,
+        "validi": 2,
         "economici": 0,
-        "cari": 0,
-        "mediana_rapporto": 0.945,
-        "mediana_implicito_su_straddle": 0.754
+        "cari": 1,
+        "mediana_rapporto": 1.585,
+        "mediana_implicito_su_straddle": 0.769
       }
     ],
-    "fotografie": 126,
-    "registro_eventi": {
-      "righe": 2568,
-      "misurati": 1857,
-      "misurati_stasera": 199
-    },
+    "fotografie": 127,
+    "registro_eventi": "non aggiornato: prima della chiusura, giorno senza seduta o taratura",
     "verdetto_per_fascia": [
       {
         "segmento": "large",
@@ -926,18 +906,18 @@
         "differenza_punti": 7.9
       }
     ],
-    "secondi": 30.9,
+    "secondi": 18.3,
     "tappe_secondi": {
       "universo": 0.2,
-      "metriche": 6.4,
-      "dolthub": 7.2,
-      "implicito": 7.2,
-      "catene": 10.1,
-      "cancello": 10.6,
-      "prezzi": 29.5,
-      "storico": 29.5,
-      "semaforo_b": 29.5,
-      "registri": 30.9
+      "metriche": 5.4,
+      "dolthub": 8.0,
+      "implicito": 8.1,
+      "catene": 10.6,
+      "cancello": 10.9,
+      "prezzi": 18.3,
+      "storico": 18.3,
+      "semaforo_b": 18.3,
+      "registri": 18.3
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generato": "2026-11-24 22:58",
+  "generato": "2026-11-25 05:08",
   "nota": "Segnali calcolati sulla chiusura; prezzi delle opzioni da Yahoo, indicativi.",
   "scanner": {
     "etf": {
@@ -241,43 +241,43 @@
     "regola": "Con 5 sedute alla fine del mese, se SPY meno TLT da inizio mese è sotto il 20% più basso dei mesi passati: compra azioni SPY per circa 3000 $ all'apertura della seduta dopo, stop GTC a -5% dal prezzo pagato, vendi alla chiusura dell'ultima seduta del mese."
   },
   "narrativa": {
-    "generato": "2026-11-24 05:35",
-    "giornata": "2026-11-23",
+    "generato": "2026-11-25 04:15",
+    "giornata": "2026-11-24",
     "come_leggere": "Contesto sulle narrative di mercato, non un segnale operativo. Riportare prima cosa riguarda le posizioni aperte e i segnali degli scanner (posizioni_e_segnali), poi la sintesi e i temi in amplificazione. Il registro dei casi è in raccolta: non trarne conclusioni prima del giudizio. Resoconto completo: segnali/narrativa.md nel repository sentinella-posizioni.",
     "sintesi": [
-      "🏁 Registro dei casi, «insider nel calo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30).",
-      "QQQ (posizione aperta): ricerca «AI bubble» al picco; ricerca «Nvidia stock» al picco",
+      "QQQ (posizione aperta): tema «Bolla e crollo» in calo; ricerca «AI bubble» al picco; ricerca «Nvidia stock» al picco",
       "GOOGL (posizione aperta): ricerca «Google stock» in salita; operazioni del Congresso",
-      "SPY (posizione aperta): tema «Recessione e lavoro» in calo; ricerca «AI bubble» al picco; ricerca «layoffs» in salita",
-      "Parole nuove in più fonti: «huang's return» (7), «huang return» (6), «return nvidia» (6), «huang ceo» (4)",
-      "Polymarket: «New NVIDIA CEO named by December 31, 2026?» 100% (+76 pt in un giorno)",
-      "Polymarket: «AI bubble burst in 2026?» 11% (-48 pt in un giorno)",
-      "Insider in gruppo: CGON (2 insider, 2.665.586 $), EFC (2 insider, 2.181.884 $), HMH (2 insider, 1.736.052 $), DKNG (3 insider, 1.450.887 $)",
-      "Insider che comprano nel calo: ADIG (-41% nel mese), ALNY (-30% nel mese), AOMR (-26% nel mese), ARR (-11% nel mese)",
+      "SPY (posizione aperta): tema «Bolla e crollo» in calo; tema «Fed e tassi» in calo; ricerca «AI bubble» al picco; ricerca «layoffs» in salita",
+      "IA che sostituisce il lavoro: arrivata alla massa (copertura mondiale doppia del solito) (5 titoli, 1.62× il solito, 5 fonti)",
+      "Dazi e commercio: in amplificazione sulle grandi testate (9 titoli, 1.92× il solito, 6 fonti)",
+      "Metalli e miniere: in amplificazione sulle grandi testate (18 titoli, 1.52× il solito, 8 fonti)",
+      "Parole nuove in più fonti: «below ipo» (7), «huang back» (5), «huang's return» (5), «return nvidia» (5)",
+      "Polymarket: «Will Anthropic's valuation hit (LOW) $1.0T by December 31?» 88% (+22 pt in un giorno)",
+      "Polymarket: «Will Anthropic have the best AI model at the end of December 2026?» 22% (+12 pt in un giorno)",
+      "Insider in gruppo: COHR (2 insider, 15.441.569 $), CGON (2 insider, 2.665.586 $), EFC (2 insider, 2.181.884 $), FPS (6 insider, 1.605.314 $)",
+      "Insider che comprano nel calo: ADIG (-40% nel mese), AOMR (-26% nel mese), APC (-10% nel mese), ASTS (-40% nel mese)",
       "Ricerche Google in salita: «Google stock», «Costco stock», «layoffs», «gold price»",
       "Ricerche Google al picco: «Nvidia stock», «Microsoft stock»",
-      "Registro dei casi: 4 nuovi casi annotati per il test"
+      "Registro dei casi: 11 nuovi casi annotati per il test"
     ],
-    "traguardi": [
-      "Registro dei casi, «insider nel calo»: 10 casi chiusi a 20 sedute (soglia 10; il giudizio arriva a 30)."
-    ],
+    "traguardi": [],
     "stato_test": {
       "temi_giorni_storico": 20,
       "temi_pronti": true,
       "registro": {
         "insider nel calo": {
-          "casi": 79,
-          "chiusi_20": 10,
+          "casi": 84,
+          "chiusi_20": 11,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.127
+          "diff_20": -0.1089
         },
         "insider in gruppo": {
-          "casi": 61,
-          "chiusi_20": 14,
+          "casi": 66,
+          "chiusi_20": 18,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
-          "diff_20": -0.0944
+          "diff_20": -0.0773
         },
         "tema sulle grandi testate": {
           "casi": 21,
@@ -301,7 +301,7 @@
           "diff_20": 0.0565
         },
         "tema arrivato alla massa": {
-          "casi": 4,
+          "casi": 5,
           "chiusi_20": 2,
           "chiusi_60": 0,
           "giudizio": "in raccolta",
@@ -316,78 +316,109 @@
         }
       }
     },
-    "temi_in_crescita": [],
+    "temi_in_crescita": [
+      {
+        "tema": "IA che sostituisce il lavoro",
+        "fase": "arrivata alla massa (copertura mondiale doppia del solito)",
+        "titoli": 5,
+        "rapporto": 1.62,
+        "esempio": "Michigan Leads Nation in Job Losses Since 2024"
+      },
+      {
+        "tema": "Dazi e commercio",
+        "fase": "in amplificazione sulle grandi testate",
+        "titoli": 9,
+        "rapporto": 1.92,
+        "esempio": "Asian Stocks Mostly Lower on AI Doubts, Tariff Jitters"
+      },
+      {
+        "tema": "Metalli e miniere",
+        "fase": "in amplificazione sulle grandi testate",
+        "titoli": 18,
+        "rapporto": 1.52,
+        "esempio": "US October CPI Preview: Inflation Growth May Slow, How Will US Stocks, Dollar and Gold React?"
+      }
+    ],
     "narrative_emergenti": [
       {
-        "parole": "huang's return",
+        "parole": "below ipo",
         "fonti": 7,
+        "esempio": "Anthropic’s stock just broke below its IPO price for the first time"
+      },
+      {
+        "parole": "huang back",
+        "fonti": 5,
+        "esempio": "Michael Burry Says Nvidia's ‘Precarious Normal’ Returns With Jensen Huang Back At The Helm: Loads Up On JD, Tencent, BYD Stocks"
+      },
+      {
+        "parole": "huang's return",
+        "fonti": 5,
         "esempio": "Michael Burry Sold Half His NVIDIA Puts Before Huang's Return Sparked a 31% Rally"
       },
       {
-        "parole": "huang return",
-        "fonti": 6,
-        "esempio": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing."
-      },
-      {
         "parole": "return nvidia",
-        "fonti": 6,
-        "esempio": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia"
+        "fonti": 5,
+        "esempio": "Does Jensen Huang’s return to Nvidia mean the chip group is too big to fail?"
       },
       {
-        "parole": "huang ceo",
+        "parole": "consumer confidence",
         "fonti": 4,
-        "esempio": "European Chip Stocks Surge After Nvidia Reinstates Huang as CEO"
+        "esempio": "US Consumer Confidence Hits 103.3 In November, Highest Since Jan 2025"
       },
       {
-        "parole": "back nvidia",
-        "fonti": 4,
-        "esempio": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him."
-      },
-      {
-        "parole": "huang reinstated",
-        "fonti": 4,
-        "esempio": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%"
+        "parole": "rally fades",
+        "fonti": 3,
+        "esempio": "U.S. Stocks Mixed as Huang Relief Rally Fades"
       }
     ],
     "mercati_previsione_mosse": [
       {
         "mercato": "Polymarket",
-        "domanda": "New NVIDIA CEO named by December 31, 2026?",
-        "prob": 1.0,
-        "var_giorno": 0.755
+        "domanda": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
+        "prob": 0.88,
+        "var_giorno": 0.215
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will Anthropic have the best AI model at the end of December 2026?",
+        "prob": 0.225,
+        "var_giorno": 0.125
+      },
+      {
+        "mercato": "Polymarket",
+        "domanda": "Will Google have the best AI model at the end of December 2026?",
+        "prob": 0.745,
+        "var_giorno": -0.11
       },
       {
         "mercato": "Polymarket",
         "domanda": "AI bubble burst in 2026?",
-        "prob": 0.113,
-        "var_giorno": -0.479
+        "prob": 0.2,
+        "var_giorno": 0.087
       },
       {
         "mercato": "Polymarket",
-        "domanda": "Will no qualifying US-Iran senior diplomatic meeting take place by December 31, 2026?",
-        "prob": 0.845,
-        "var_giorno": 0.255
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
-        "prob": 0.495,
-        "var_giorno": 0.165
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Israel x Iran ceasefire continues through December 15?",
-        "prob": 0.84,
-        "var_giorno": 0.155
-      },
-      {
-        "mercato": "Polymarket",
-        "domanda": "Israel x Iran ceasefire continues through December 31?",
-        "prob": 0.755,
-        "var_giorno": 0.13
+        "domanda": "Will AI solve P versus NP in 2026?",
+        "prob": 0.067,
+        "var_giorno": -0.083
       }
     ],
     "insider_gruppi": [
+      {
+        "ticker": "COHR",
+        "emittente": "COHERENT CORP.",
+        "insider": 2,
+        "valore_totale": 15441569,
+        "ultima_operazione": "2026-11-20",
+        "chi": [
+          "Digirolomo Enrico (consigliere)",
+          "PAGLIUCA STEPHEN G (consigliere)"
+        ],
+        "rendimento_1m": -0.114,
+        "dal_massimo_12m": -0.54,
+        "sopra_media200": false,
+        "sp500": true
+      },
       {
         "ticker": "CGON",
         "emittente": "CG Oncology, Inc.",
@@ -398,8 +429,8 @@
           "Kalofonos Isabel (Chief Commercial Officer)",
           "Kuan Arthur (consigliere, Chief Executive Officer)"
         ],
-        "rendimento_1m": 0.353,
-        "dal_massimo_12m": -0.015,
+        "rendimento_1m": 0.421,
+        "dal_massimo_12m": 0.0,
         "sopra_media200": true,
         "sp500": false
       },
@@ -413,39 +444,26 @@
           "Penn Laurence (consigliere, CEO and President)",
           "Vranos Michael W (Co-Chief Investment Officer)"
         ],
-        "rendimento_1m": -0.032,
-        "dal_massimo_12m": -0.155,
+        "rendimento_1m": -0.016,
+        "dal_massimo_12m": -0.142,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "HMH",
-        "emittente": "HMH Holding Inc",
-        "insider": 2,
-        "valore_totale": 1736052,
-        "ultima_operazione": "2026-11-18",
+        "ticker": "FPS",
+        "emittente": "Forgent Power Solutions, Inc.",
+        "insider": 6,
+        "valore_totale": 1605314,
+        "ultima_operazione": "2026-11-20",
         "chi": [
-          "Bergsvik Eirik (Chief Executive Officer)",
-          "McGee Thomas W. (Chief Financial Officer)"
+          "Ard Amy E (Chief Financial Officer)",
+          "Bhatia Neel (consigliere)",
+          "Hottinger Tyson (Chief Legal Officer)",
+          "Lund Inez (Chief Accounting Officer)",
+          "Niederpruem Gary John (consigliere, Chief Executive Officer)"
         ],
-        "rendimento_1m": -0.386,
-        "dal_massimo_12m": -0.54,
-        "sopra_media200": null,
-        "sp500": false
-      },
-      {
-        "ticker": "DKNG",
-        "emittente": "DraftKings Inc.",
-        "insider": 3,
-        "valore_totale": 1450887,
-        "ultima_operazione": "2026-11-17",
-        "chi": [
-          "Ellingson Alan Wayne (Chief Financial Officer)",
-          "Kalish Matthew (consigliere)",
-          "Wendt Gregory Westin (consigliere)"
-        ],
-        "rendimento_1m": -0.246,
-        "dal_massimo_12m": -0.565,
+        "rendimento_1m": -0.258,
+        "dal_massimo_12m": -0.712,
         "sopra_media200": false,
         "sp500": false
       },
@@ -461,73 +479,73 @@
           "Schlacks Jabbok (consigliere, Founder & CEO)",
           "Schlacks William J. (consigliere, Founder & President)"
         ],
-        "rendimento_1m": -0.1,
-        "dal_massimo_12m": -0.584,
+        "rendimento_1m": -0.121,
+        "dal_massimo_12m": -0.587,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "COHR",
-        "emittente": "COHERENT CORP.",
+        "ticker": "DKNG",
+        "emittente": "DraftKings Inc.",
         "insider": 2,
-        "valore_totale": 1220285,
-        "ultima_operazione": "2026-11-10",
+        "valore_totale": 1100900,
+        "ultima_operazione": "2026-11-17",
         "chi": [
-          "ANDERSON JAMES ROBERT (consigliere, CEO)",
-          "Digirolomo Enrico (consigliere)"
+          "Kalish Matthew (consigliere)",
+          "Wendt Gregory Westin (consigliere)"
         ],
-        "rendimento_1m": 0.031,
-        "dal_massimo_12m": -0.494,
+        "rendimento_1m": -0.241,
+        "dal_massimo_12m": -0.555,
         "sopra_media200": false,
-        "sp500": true
+        "sp500": false
       }
     ],
     "insider_nel_calo": [
       {
         "ticker": "ADIG",
-        "rendimento_1m": -0.408,
-        "dal_massimo_12m": -0.66,
+        "rendimento_1m": -0.403,
+        "dal_massimo_12m": -0.655,
         "sopra_media200": null,
-        "sp500": false
-      },
-      {
-        "ticker": "ALNY",
-        "rendimento_1m": -0.304,
-        "dal_massimo_12m": -0.67,
-        "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "AOMR",
         "rendimento_1m": -0.259,
-        "dal_massimo_12m": -0.387,
+        "dal_massimo_12m": -0.385,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "ARR",
-        "rendimento_1m": -0.113,
-        "dal_massimo_12m": -0.319,
+        "ticker": "APC",
+        "rendimento_1m": -0.103,
+        "dal_massimo_12m": -0.317,
+        "sopra_media200": null,
+        "sp500": false
+      },
+      {
+        "ticker": "ASTS",
+        "rendimento_1m": -0.402,
+        "dal_massimo_12m": -0.823,
         "sopra_media200": false,
         "sp500": false
       },
       {
         "ticker": "ATEC",
-        "rendimento_1m": -0.38,
-        "dal_massimo_12m": -0.696,
+        "rendimento_1m": -0.34,
+        "dal_massimo_12m": -0.683,
         "sopra_media200": false,
         "sp500": false
       },
       {
-        "ticker": "BOTJ",
-        "rendimento_1m": -0.169,
-        "dal_massimo_12m": -0.176,
-        "sopra_media200": true,
+        "ticker": "AUBN",
+        "rendimento_1m": -0.114,
+        "dal_massimo_12m": -0.173,
+        "sopra_media200": false,
         "sp500": false
       }
     ],
     "congresso_vertici": [],
-    "congresso_comunicazioni": 15,
+    "congresso_comunicazioni": 14,
     "presidente_nuove_comunicazioni": 0,
     "trends": {
       "settimana": "2026-11-15",
@@ -579,12 +597,13 @@
         "ticker": "QQQ",
         "origine": "posizione aperta",
         "da_notare": [
+          "tema «Bolla e crollo» in calo",
           "ricerca «AI bubble» al picco",
           "ricerca «Nvidia stock» al picco"
         ],
-        "mese": -0.076,
+        "mese": -0.104,
         "sopra_media200": false,
-        "vol_implicita": 32.2
+        "vol_implicita": 32.4
       },
       {
         "ticker": "GOOGL",
@@ -595,19 +614,20 @@
         ],
         "mese": -0.119,
         "sopra_media200": false,
-        "vol_implicita": 41.6
+        "vol_implicita": 41.7
       },
       {
         "ticker": "SPY",
         "origine": "posizione aperta",
         "da_notare": [
-          "tema «Recessione e lavoro» in calo",
+          "tema «Bolla e crollo» in calo",
+          "tema «Fed e tassi» in calo",
           "ricerca «AI bubble» al picco",
           "ricerca «layoffs» in salita"
         ],
-        "mese": -0.05,
+        "mese": -0.061,
         "sopra_media200": false,
-        "vol_implicita": 23.3
+        "vol_implicita": 21.5
       },
       {
         "ticker": "AAOI",
@@ -615,9 +635,9 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.427,
+        "mese": -0.466,
         "sopra_media200": false,
-        "vol_implicita": 123.0
+        "vol_implicita": 132.0
       },
       {
         "ticker": "VST",
@@ -625,31 +645,38 @@
         "da_notare": [
           "niente di nuovo"
         ],
-        "mese": -0.116,
+        "mese": -0.148,
         "sopra_media200": false,
-        "vol_implicita": 56.1
+        "vol_implicita": 53.6
       }
     ],
     "registro_casi": {
       "nuovi_oggi": [
-        "ricerca in salita: gold price → COPX",
-        "insider nel calo: IMMX → IMMX",
-        "insider nel calo: LAND → LAND",
-        "insider nel calo: LEGN → LEGN"
+        "tema arrivato alla massa: IA che sostituisce il lavoro → IGV",
+        "insider in gruppo: CTSO → CTSO",
+        "insider in gruppo: BFH → BFH",
+        "insider in gruppo: APC → APC",
+        "insider in gruppo: CWBC → CWBC",
+        "insider in gruppo: CTRI → CTRI",
+        "insider nel calo: APC → APC",
+        "insider nel calo: ASTS → ASTS",
+        "insider nel calo: AUBN → AUBN",
+        "insider nel calo: BG → BG",
+        "insider nel calo: DXR → DXR"
       ],
       "bilancio": [
         {
           "tipo": "insider nel calo",
-          "casi": 79,
-          "chiusi_20": 10,
-          "diff_20": -0.127,
+          "casi": 84,
+          "chiusi_20": 11,
+          "diff_20": -0.1089,
           "giudizio": "in raccolta"
         },
         {
           "tipo": "insider in gruppo",
-          "casi": 61,
-          "chiusi_20": 14,
-          "diff_20": -0.0944,
+          "casi": 66,
+          "chiusi_20": 18,
+          "diff_20": -0.0773,
           "giudizio": "in raccolta"
         },
         {
@@ -675,7 +702,7 @@
         },
         {
           "tipo": "tema arrivato alla massa",
-          "casi": 4,
+          "casi": 5,
           "chiusi_20": 2,
           "diff_20": -0.1126,
           "giudizio": "in raccolta"
@@ -690,7 +717,6 @@
       ]
     },
     "fonti_non_raggiungibili": [
-      "SEC Form 4",
       "Yahoo Finance",
       "r/wallstreetbets",
       "r/stocks",
@@ -698,8 +724,7 @@
       "r/options",
       "r/StockMarket",
       "r/Economics",
-      "GDELT (IA: investimenti e data center)",
-      "GDELT (Dazi e commercio)"
+      "GDELT (Colli di bottiglia)"
     ]
   },
   "radar_movimenti": {
@@ -708,11 +733,11 @@
     "completo": true,
     "problemi": {
       "dati_non_validi": {
-        "volatilità di base negativa": 16,
+        "volatilità di base negativa": 18,
         "varianza dell'evento negativa": 15,
         "meno di due scadenze che contengono l'evento": 4
       },
-      "orario_ignoto": "37 titoli nella finestra senza orario (trattati come prima dell'apertura)"
+      "orario_ignoto": "36 titoli nella finestra senza orario (trattati come prima dell'apertura)"
     },
     "nota": "Solo informazione per l'agente: nessun ordine e nessuna regola nuova. Piano: strategia/piano-radar-movimenti.md",
     "soglie": {
@@ -742,15 +767,15 @@
         "universo": 518,
         "con_metriche": 518,
         "rating_ok": 517,
-        "utili_prossimi_60_giorni": 55,
+        "utili_prossimi_60_giorni": 65,
         "in_finestra": 29,
         "cancello_ok": 7,
         "validi": 7,
-        "economici": 2,
-        "cari": 1,
+        "economici": 1,
+        "cari": 3,
         "dato_non_valido": 1,
         "storico_insufficiente": 0,
-        "senza_data_utili": 463,
+        "senza_data_utili": 453,
         "esclusi_per_motivo": {
           "liquidità: open interest": 11,
           "liquidità: forchetta": 10,
@@ -761,19 +786,19 @@
         "universo": 2000,
         "con_metriche": 2000,
         "rating_ok": 1688,
-        "utili_prossimi_60_giorni": 149,
-        "in_finestra": 98,
+        "utili_prossimi_60_giorni": 164,
+        "in_finestra": 100,
         "cancello_ok": 3,
         "validi": 3,
         "economici": 0,
         "cari": 0,
-        "dato_non_valido": 34,
+        "dato_non_valido": 36,
         "storico_insufficiente": 0,
-        "senza_data_utili": 1851,
+        "senza_data_utili": 1836,
         "esclusi_per_motivo": {
           "liquidità: forchetta": 43,
+          "dato non valido: volatilità di base negativa": 17,
           "dato non valido: varianza dell'evento negativa": 15,
-          "dato non valido: volatilità di base negativa": 15,
           "liquidità: liquidity rating": 15,
           "dato non valido: meno di due scadenze che contengono l'evento": 4,
           "liquidità: open interest": 3
@@ -795,18 +820,18 @@
         "fascia": "4-7",
         "validi": 4,
         "economici": 1,
-        "cari": 0,
-        "mediana_rapporto": 0.856,
-        "mediana_implicito_su_straddle": 0.728
+        "cari": 1,
+        "mediana_rapporto": 0.979,
+        "mediana_implicito_su_straddle": 0.677
       },
       {
         "segmento": "large",
         "fascia": "8-15",
         "validi": 3,
-        "economici": 1,
-        "cari": 1,
-        "mediana_rapporto": 1.146,
-        "mediana_implicito_su_straddle": 0.545
+        "economici": 0,
+        "cari": 2,
+        "mediana_rapporto": 1.215,
+        "mediana_implicito_su_straddle": 0.801
       },
       {
         "segmento": "small/mid",
@@ -824,7 +849,7 @@
         "economici": 0,
         "cari": 0,
         "mediana_rapporto": 0.871,
-        "mediana_implicito_su_straddle": 0.888
+        "mediana_implicito_su_straddle": 0.911
       },
       {
         "segmento": "small/mid",
@@ -833,14 +858,14 @@
         "economici": 0,
         "cari": 0,
         "mediana_rapporto": 1.061,
-        "mediana_implicito_su_straddle": 0.885
+        "mediana_implicito_su_straddle": 0.878
       }
     ],
-    "fotografie": 127,
+    "fotografie": 129,
     "registro_eventi": {
-      "righe": 2579,
+      "righe": 2581,
       "misurati": 1879,
-      "misurati_stasera": 99
+      "misurati_stasera": 53
     },
     "verdetto_per_fascia": [
       {
@@ -910,18 +935,18 @@
         "differenza_punti": 10.8
       }
     ],
-    "secondi": 21.7,
+    "secondi": 20.7,
     "tappe_secondi": {
-      "universo": 0.3,
-      "metriche": 6.1,
-      "dolthub": 7.5,
-      "implicito": 7.5,
-      "catene": 10.9,
-      "cancello": 11.4,
-      "prezzi": 20.2,
-      "storico": 20.3,
-      "semaforo_b": 20.3,
-      "registri": 21.7
+      "universo": 0.2,
+      "metriche": 6.7,
+      "dolthub": 7.6,
+      "implicito": 7.6,
+      "catene": 11.4,
+      "cancello": 11.8,
+      "prezzi": 19.7,
+      "storico": 19.7,
+      "semaforo_b": 19.7,
+      "registri": 20.6
     }
   }
 }
